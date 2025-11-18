@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Service Date Selection - FanTastic Service</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <a href="index.html" class="logo-link">
+                        <img src="your-logo.png" alt="Company Logo" class="logo-img">
+                    </a>
+                </div>
+                
+                <nav class="nav-desktop">
+                    <a href="index.html#hero-section" class="nav-link">Home</a>
+                    <a href="index.html#service-section" class="nav-link">ServiceReport</a>
+                    <a href="#" class="nav-link" onclick="openWhatsApp(); return false;">Contact Us</a>
+                </nav>
+
+                <button class="mobile-menu-btn" onclick="toggleMobileMenu()">
+                    <svg class="menu-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                    </svg>
+                </button>
+            </div>
+
+            <div id="mobile-menu" class="mobile-menu">
+                <nav class="nav-mobile">
+                    <a href="index.html#hero-section" class="nav-link-mobile" onclick="toggleMobileMenu()">Home</a>
+                    <a href="index.html#service-section" class="nav-link-mobile" onclick="toggleMobileMenu()">ServiceReport</a>
+                    <a href="#" class="nav-link-mobile" onclick="openWhatsApp(); toggleMobileMenu(); return false;">Contact Us</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Date Selection Section -->
+    <div class="date-selection-container">
+        <div class="date-selection-card">
+            <h1 class="date-selection-title">Select Service Date</h1>
+            <p id="companyDisplay" class="company-display-small"></p>
+
+            <!-- Service History Section -->
+            <div class="service-history-section">
+                <h3 class="service-history-title">Service Schedule</h3>
+                
+                <div class="service-dates-grid">
+                    <div class="service-date-card">
+                        <div class="service-date-icon last-service">
+                            <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                            </svg>
+                        </div>
+                        <div class="service-date-info">
+                            <p class="service-date-label">Last Service Date</p>
+                            <p id="lastServiceDate" class="service-date-value">Loading...</p>
+                        </div>
+                    </div>
+
+                    <div class="service-date-card">
+                        <div class="service-date-icon next-service">
+                            <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                            </svg>
+                        </div>
+                        <div class="service-date-info">
+                            <p class="service-date-label">Next Service Date</p>
+                            <p id="nextServiceDate" class="service-date-value">Loading...</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Date Selection Form -->
+            <div class="date-form-section">
+                <h3 class="date-form-title">View Service Reports</h3>
+                <p class="date-form-subtitle">Select a date to view fans serviced on that day</p>
+
+                <form id="dateForm" onsubmit="handleDateSubmit(event)">
+                    <div class="form-group">
+                        <label for="serviceDate" class="form-label">Service Date</label>
+                        <input
+                            type="date"
+                            id="serviceDate"
+                            class="date-input"
+                            required
+                        />
+                    </div>
+
+                    <button type="submit" id="submitBtn" class="btn-submit">
+                        VIEW SERVICED FANS
+                    </button>
+                </form>
+
+                <!-- Available Service Dates -->
+                <div id="availableDates" class="available-dates-section">
+                    <p class="available-dates-title">Recent Service Dates:</p>
+                    <div id="datesList" class="dates-list">
+                        <!-- Dates will be dynamically populated -->
+                    </div>
+                </div>
+            </div>
+
+            <button type="button" onclick="goBack()" class="btn-back">
+                BACK TO PASSWORD
+            </button>
+        </div>
+    </div>
+
+    <script src="date-selection.js"></script>
+</body>
+</html>
