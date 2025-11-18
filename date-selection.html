@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Select Service Report</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="password-page">
+    <!-- Header Navigation -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <img src="images/logo.png" alt="TK FANTASTIC Logo" class="logo-img">
+                </div>
+                <nav class="nav-desktop">
+                    <a href="index.html#hero" class="nav-link">Home</a>
+                    <a href="index.html#service" class="nav-link">Service Report</a>
+                    <a href="index.html#contact" class="nav-link">Contact Us</a>
+                </nav>
+                <button class="mobile-menu-btn" id="mobileMenuBtn">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+            <nav class="nav-mobile" id="mobileMenu">
+                <a href="index.html#hero" class="nav-link">Home</a>
+                <a href="index.html#service" class="nav-link">Service Report</a>
+                <a href="index.html#contact" class="nav-link">Contact Us</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Date Selection Section -->
+    <section class="hero">
+        <div class="hero-overlay"></div>
+        <div class="container">
+            <div class="password-container" style="max-width: 700px;">
+                <h1 class="title">Select Your Service Report</h1>
+                <p class="company-name" id="companyDisplay">Loading...</p>
+
+                <!-- Service History Summary -->
+                <div class="date-section">
+                    <h3 class="section-header">Service Schedule</h3>
+                    
+                    <div class="service-history">
+                        <div class="history-card">
+                            <div class="history-icon">📅</div>
+                            <div class="history-info">
+                                <p>Last Service Date</p>
+                                <p id="lastServiceDate">Loading...</p>
+                            </div>
+                        </div>
+
+                        <div class="history-card">
+                            <div class="history-icon">🔔</div>
+                            <div class="history-info">
+                                <p>Next Service Date</p>
+                                <p id="nextServiceDate">Loading...</p>
+                                <p class="history-days" id="daysUntilNext"></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Available Service Reports -->
+                <div class="date-section">
+                    <h3 class="section-header">Select Your Service Report</h3>
+                    <p style="color: rgba(255, 255, 255, 0.9); text-align: center; margin-bottom: 1.5rem;">
+                        Click on a date below to view details
+                    </p>
+
+                    <div id="datesList" class="dates-list">
+                        <!-- Dates will be dynamically populated here by JavaScript -->
+                    </div>
+                </div>
+
+                <button type="button" onclick="window.location.href='password.html'" class="back-button">
+                    BACK TO PASSWORD
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <script src="date-selection.js"></script>
+    <script>
+        // Mobile menu toggle
+        document.getElementById('mobileMenuBtn')?.addEventListener('click', function() {
+            document.getElementById('mobileMenu').classList.toggle('active');
+        });
+    </script>
+</body>
+</html>
