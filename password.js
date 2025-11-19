@@ -69,6 +69,7 @@ const submitBtn = document.getElementById('submitBtn');
 const errorMessage = document.getElementById('errorMessage');
 const helpSection = document.getElementById('helpSection');
 const whatsappBtn = document.getElementById('whatsappBtn');
+const requestPasswordBtn = document.getElementById('requestPasswordBtn');
 
 let attemptCount = 0;
 
@@ -168,5 +169,6 @@ function showError(message) {
         errorMessage.style.display = 'none';
     }, 5000);
 }
+
 
 
