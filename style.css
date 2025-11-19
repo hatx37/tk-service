@@ -184,7 +184,7 @@ html {
 /* ==================== SERVICE SECTION (Search Box) ==================== */
 .service-section {
     padding: 80px 20px;
-    background: linear-gradient(135deg, #2a5298 0%, #1e3c72 100%);
+    background: #00ABEC ；
     position: relative;
 }
 
@@ -873,6 +873,7 @@ html {
     background-repeat: no-repeat;
     padding: 120px 0;  /* Height of hero */
 }
+
 
 
 
