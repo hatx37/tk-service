@@ -863,3 +863,13 @@ html {
     width: auto;
 
 }
+/* ------------------------------------------------ */
+/* HERO SECTION BACKGROUND IMAGE STYLE              */
+/* ------------------------------------------------ */
+
+.hero {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 120px 0;  /* Height of hero */
+}
