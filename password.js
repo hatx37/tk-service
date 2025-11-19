@@ -81,7 +81,12 @@ if (!companyName) {
 } else {
     companyDisplay.textContent = companyName;
 }
+const GOOGLE_FORM_URL = 'https://docs.google.com/forms/d/e/YOUR_FORM_ID/viewform';
 
+requestPasswordBtn.addEventListener('click', () => {
+    // Open Google Form in a new tab
+    window.open(GOOGLE_FORM_URL, '_blank');
+ });
 // ==================== TOGGLE PASSWORD VISIBILITY ====================
 togglePassword.addEventListener('click', () => {
     if (passwordInput.type === 'password') {
@@ -163,4 +168,5 @@ function showError(message) {
         errorMessage.style.display = 'none';
     }, 5000);
 }
+
 
