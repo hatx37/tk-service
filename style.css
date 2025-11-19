@@ -297,7 +297,7 @@ html {
 /* ==================== OUR SERVICES SECTION ==================== */
 .our-services-section {
     padding: 80px 20px;
-    background: linear-gradient(135deg, #2a5298 0%, #1e3c72 100%);
+    background: linear-gradient(135deg, #1e3c72 0%, #2a5298 50%, #7e8ba3 100%);
 }
 
 .service-grid {
@@ -346,7 +346,7 @@ html {
 /* ==================== CONTACT SECTION ==================== */
 .contact-section {
     padding: 80px 20px;
-    background: #1F3B4D;;
+    background: linear-gradient(135deg, #1e3c72 0%, #2a5298 50%, #7e8ba3 100%);
 }
 
 .contact-content {
@@ -873,6 +873,7 @@ html {
     background-repeat: no-repeat;
     padding: 120px 0;  /* Height of hero */
 }
+
 
 
 
