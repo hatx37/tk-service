@@ -3,7 +3,7 @@
 // Each fan on each date has its own unique service report URL
 const companyReportLinks = {
     'AFN SPORTS EQUIPMENT SDN BHD': {
-        '2025-01-15': {
+        '2025-03-28': {
             'Fan 1': 'https://drive.google.com/drive/folders/1uRfh_HV3ly_JvUMurlineU8-H8Ru5gRq',
             'Fan 2': 'https://drive.google.com/drive/folders/13Bx5E8-sdQZDXOp7S_rGW8V8c6MEt-WK',
         }
@@ -401,4 +401,5 @@ window.addEventListener('DOMContentLoaded', function() {
     } else {
         fanGridEl.innerHTML = '<p class="no-fans">No fans serviced on this date</p>';
     }
+
 });
