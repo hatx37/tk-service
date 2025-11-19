@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Select Fan Report</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Additional styles for fan selection grid */
+        .fans-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1.5rem;
+            margin: 2rem 0;
+        }
+
+        .fan-btn {
+            background: rgba(255, 255, 255, 0.15);
+            backdrop-filter: blur(10px);
+            border: 2px solid rgba(255, 255, 255, 0.3);
+            border-radius: 12px;
+            padding: 2rem 1rem;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-align: center;
+            color: white;
+            font-family: inherit;
+        }
+
+        .fan-btn:hover {
+            background: rgba(255, 255, 255, 0.25);
+            border-color: rgba(255, 255, 255, 0.5);
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+        }
+
+        .fan-icon {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+
+        .fan-name {
+            font-size: 1.2rem;
+            font-weight: bold;
+            margin-bottom: 0.5rem;
+        }
+
+        .fan-action {
+            font-size: 0.9rem;
+            opacity: 0.8;
+        }
+
+        .no-fans {
+            color: rgba(255, 255, 255, 0.8);
+            text-align: center;
+            padding: 2rem;
+            font-size: 1.1rem;
+        }
+
+        @media (max-width: 768px) {
+            .fans-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body class="password-page">
+    <!-- Header Navigation -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <img src="images/logo.png" alt="TK FANTASTIC Logo" class="logo-img">
+                </div>
+                <nav class="nav-desktop">
+                    <a href="index.html#hero" class="nav-link">Home</a>
+                    <a href="index.html#service" class="nav-link">Service Report</a>
+                    <a href="index.html#contact" class="nav-link">Contact Us</a>
+                </nav>
+                <button class="mobile-menu-btn" id="mobileMenuBtn">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+            <nav class="nav-mobile" id="mobileMenu">
+                <a href="index.html#hero" class="nav-link">Home</a>
+                <a href="index.html#service" class="nav-link">Service Report</a>
+                <a href="index.html#contact" class="nav-link">Contact Us</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Fan Selection Section -->
+    <section class="hero">
+        <div class="hero-overlay"></div>
+        <div class="container">
+            <div class="password-container" style="max-width: 900px;">
+                <h1 class="title">Select Fan for Service Report</h1>
+                <p class="company-name" id="companyDisplay">Loading company...</p>
+                <p class="company-name" id="dateDisplay" style="font-size: 1rem; margin-top: -1rem; margin-bottom: 1rem;">Loading date...</p>
+                
+                <p style="color: rgba(255, 255, 255, 0.9); text-align: center; margin-bottom: 2rem; font-size: 1rem;">
+                    👇 Click on a fan below to view its service report
+                </p>
+
+                <!-- Fan Grid - Dynamically populated by JavaScript -->
+                <div id="fanGrid" class="fans-grid">
+                    <!-- Fan cards will be generated here by fan-selection.js -->
+                    <div style="color: rgba(255, 255, 255, 0.7); text-align: center; padding: 2rem;">
+                        Loading fans...
+                    </div>
+                </div>
+
+                <button type="button" onclick="window.location.href='date-selection.html'" class="back-button" style="margin-top: 2rem;">
+                    ← BACK TO DATE SELECTION
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <script src="fan-selection.js"></script>
+    <script>
+        // Mobile menu toggle
+        document.getElementById('mobileMenuBtn')?.addEventListener('click', function() {
+            document.getElementById('mobileMenu')?.classList.toggle('active');
+        });
+    </script>
+</body>
+</html>
