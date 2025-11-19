@@ -36,7 +36,7 @@ html {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0,5rem 0;
+    padding: 0.5rem 0;
 }
 
 /* Logo Styles */
@@ -873,4 +873,5 @@ html {
     background-repeat: no-repeat;
     padding: 120px 0;  /* Height of hero */
 }
+
 
