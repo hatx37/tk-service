@@ -147,7 +147,7 @@ const companyServiceData = {
         lastServiceDate: '2024-12-07',
         nextServiceDate: '2025-06-07',
         serviceDates: {
-            '2022-09-29': ['C6(BIGASS)', 'C7(AIREGARD)', 'C8(AIREGARD)','C9(BIGASS)'，'C11(AIREGARD)', 'C14(BIGASS)', 'D15(AIREGARD)','E15(AIREGARD)','F14'],
+            '2022-09-17': ['C6(BIGASS)', 'C7(AIREGARD)', 'C8(AIREGARD)','C9(BIGASS)'，'C11(AIREGARD)', 'C14(BIGASS)', 'D15(AIREGARD)','E15(AIREGARD)','F14'],
             '2023-04-09': ['C6(9)(BIGASS)', 'C7(AIREGARD)', 'C8(AIREGARD)','C9(BIGASS)'，'C10(AIREGARD)','C11(AIREGARD)', 'C14(6)(BIGASS)', 'D15(8)((AIREGARD)','E15(AIREGARD)','F14(AIREGARD)'],
             '2023-10-07': ['B6','B7','B8','B10','C6','C7','C8','C9','C10','C11','C14','D15','E15','F14'],
             '2024-05-04': ['B6(Fan 1)','B7(Fan 2)','B9(Fan 3)','B10(Fan 4)','C6(Fan 14)','C7(Fan 13)','C8(Fan 12)','C9(Fan 11)','C10(Fan 10)','C11(Fan 9)','C14(Fan 8)','D16(Fan 6)','F14(Fan 5)','F15 Keluar site(Fan 7)'],
@@ -205,7 +205,7 @@ const companyServiceData = {
     },
     'LUXE ACRE SDN BHD': {
         lastServiceDate: '2025-03-07',
-        nextServiceDate: '2025-03-07',
+        nextServiceDate: '2026-03-07',
         serviceDates: {
             '2025-03-07': ['Fan 1'],
         }
@@ -225,10 +225,10 @@ const companyServiceData = {
         }
     },
     'NESTLE MANUFACTURING (M) SDN BHD (CHEMBONG)': {
-        lastServiceDate: '2025-08-30',
+        lastServiceDate: '2024-08-30',
         nextServiceDate: 'N/A',
         serviceDates: {
-            '2025-02-05': ['Fan 1'],
+            '2024-08-30': ['Fan 1'],
         }
     },
     'NESTLE MANUFACTURING (M) SDN BHD (SA)': {
@@ -262,7 +262,7 @@ const companyServiceData = {
     },
     'SAGA MAKMUR SDN BHD': {
         lastServiceDate: '2025-02-09',
-        nextServiceDate: '2026-02-109',
+        nextServiceDate: '2026-02-09',
         serviceDates: {
             '2025-02-09': ['Fan 1', 'Fan 2','Fan 3','Fan 4','Fan 5'],
             '2025-03-25': ['Fan 4'],
@@ -277,7 +277,7 @@ const companyServiceData = {
         }
     },
     'SIN TAI HING': {
-        lastServiceDate: '2025-03-10',
+        lastServiceDate: '2025-10-03',
         nextServiceDate: 'N/A',
         serviceDates: {
             '2023-12-15': ['Fan 1', 'Fan 2'],
@@ -343,9 +343,9 @@ const companyServiceData = {
     },
     'UPPER HERITAGE SDN BHD': {
         lastServiceDate: '2025-07-25',
-        nextServiceDate: '2026-07-17',
+        nextServiceDate: '2026-07-25',
         serviceDates: {
-            '2025-06-17': ['Fan 1'],
+            '2025-07-25': ['Fan 1'],
         }
     }
 };
@@ -471,6 +471,7 @@ function calculateDaysUntil(dateString) {
     
     return diffDays;
 }
+
 
 
 
