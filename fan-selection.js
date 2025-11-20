@@ -431,11 +431,6 @@ const companyReportLinks = {
 
 // Format date to readable string
 function formatDate(dateString) {
-    // Handle special cases like 'Photo' or 'N/A'
-    if (dateString === 'Photo' || dateString === 'N/A') {
-        return dateString;
-    }
-    
     const options = { year: 'numeric', month: 'long', day: 'numeric' };
     const date = new Date(dateString);
     return date.toLocaleDateString('en-US', options);
@@ -471,7 +466,7 @@ function viewReport(fanName) {
         return;
     }
     
-    // Normalize company name for lookup (convert to uppercase for matching)
+    // Normalize company name for lookup
     const normalizedCompanyName = companyName.toUpperCase().trim();
     
     // Get the specific report URL for this company, date, and fan
@@ -542,7 +537,6 @@ window.addEventListener('DOMContentLoaded', function() {
             fanBtn.className = 'fan-btn';
             fanBtn.onclick = () => viewReport(fanName);
             fanBtn.innerHTML = `
-                <div class="fan-icon"> ⚙ </div>
                 <div class="fan-name">${fanName}</div>
                 <div class="fan-action">View Report →</div>
             `;
