@@ -233,7 +233,7 @@ const companyReportLinks = {
         }
     },
     'KUEHNE + NAGEL': {
-        '2025-02-03': {
+        '2023-12-19': {
             'Fan 1(Site A)': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
             'Fan 2(Site A)': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
             'Fan 3(Site A)': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
@@ -247,67 +247,98 @@ const companyReportLinks = {
         }
     },
     'LH ELECTRIC & SERVICES': {
-        '2025-02-04': {
+        '2025-04-25': {
             'Fan 1': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
+            'Fan 2': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
         }
     },
     'LOTUS\'S STORE (MALAYSIA) SDN BHD': {
+        '2025-02-12': {
+            'G1': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
+            'G2': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
+            'G3': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
+            'G4': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
+            'G5': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
+            'G6': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
+            'G8': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
+            'G9': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
+            'G10': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
+            'G11': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
+            'G12': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
+            'G14': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
+            'G16': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
+            'G17': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
+            'G18': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
+        }
+    },
+    'LUXE ACRE SDN BHD': {
+        '2025-03-07': {
+            'Fan 1': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
+        }
+    },
+    'MACRO PERSPECTIVE SDN BHD': {
+        '2025-05-14': {
+            'Fan 1': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
+        }
+    },
+    'MILLENNIUM WELT SDN BHD': {
         '2025-02-05': {
             'Fan 1': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
             'Fan 2': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
             'Fan 3': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
         }
     },
-    'LUXE ACRE SDN BHD': {
-        '2025-02-06': {
-            'Fan 1': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
-        }
-    },
-    'MACRO PERSPECTIVE SDN BHD': {
-        '2025-02-07': {
-            'Fan 1': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
-            'Fan 2': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
-        }
-    },
-    'MILLENNIUM WELT SDN BHD': {
-        '2025-02-08': {
-            'Fan 1': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
-        }
-    },
     'NESTLE MANUFACTURING (M) SDN BHD (CHEMBONG)': {
-        '2025-02-09': {
+        '2025-02-05': {
             'Fan 1': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
-            'Fan 2': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
-            'Fan 3': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
         }
     },
     'NESTLE MANUFACTURING (M) SDN BHD (SA)': {
-        '2025-02-10': {
+        '2025-04-04': {
             'Fan 1': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
             'Fan 2': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
+            'Fan 3': 'https://drive.google.com/drive/folders/1tfX_kEduVSVt-ZHJg-tDQnwoaShudfK1',
+            'Fan 4': 'https://drive.google.com/drive/folders/1qIC4HxIbWf88BoDFkqqSXU8mthVKaGfV',
+            'Fan 5': 'https://drive.google.com/drive/folders/14LbTOfVDkr4H6vSv3nwyokdnkNtNaaqM',
+            'Fan 6': 'https://drive.google.com/drive/folders/1F222aStI_HXgnj6O8PBQBivzjB5V8AFa',
         }
     },
     'PERCETAKAN TENAGA': {
-        '2025-02-11': {
-            'Fan 1': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
-        }
-    },
-    'PERODUA MANUFACTURING SDN BHD': {
-        '2025-02-12': {
-            'Fan 1': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
-            'Fan 2': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
+        '2025-03-22': {
             'Fan 3': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
         }
     },
-    'REDVEST': {
-        '2025-02-13': {
+    'PERODUA MANUFACTURING SDN BHD': {
+        '2023-10-28': {
             'Fan 1': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
+            'Fan 2': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
+        },
+        '2025-08-16': {
+            'Fan 1': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
+            'Fan 2': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
+        }
+    },
+    'REDVEST': {
+        '2025-06-17': {
+            'Fan 1': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
+            'Fan 2': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
+            'Fan 3': 'https://drive.google.com/drive/folders/1tfX_kEduVSVt-ZHJg-tDQnwoaShudfK1',
         }
     },
     'SAGA MAKMUR SDN BHD': {
-        '2025-02-14': {
+        '2025-02-09': {
             'Fan 1': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
             'Fan 2': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
+            'Fan 3': 'https://drive.google.com/drive/folders/1tfX_kEduVSVt-ZHJg-tDQnwoaShudfK1',
+            'Fan 4': 'https://drive.google.com/drive/folders/1qIC4HxIbWf88BoDFkqqSXU8mthVKaGfV',
+            'Fan 5': 'https://drive.google.com/drive/folders/14LbTOfVDkr4H6vSv3nwyokdnkNtNaaqM',
+        },
+        '2025-03-25': {
+            'Fan 4': 'https://drive.google.com/drive/folders/1qIC4HxIbWf88BoDFkqqSXU8mthVKaGfV',
+        },
+         '2025-04-09': {
+            'Fan 3': 'https://drive.google.com/drive/folders/1tfX_kEduVSVt-ZHJg-tDQnwoaShudfK1',
+            'Fan 4': 'https://drive.google.com/drive/folders/1qIC4HxIbWf88BoDFkqqSXU8mthVKaGfV',
         }
     },
     'SEA ASIA SDN BHD': {
@@ -491,6 +522,7 @@ window.addEventListener('DOMContentLoaded', function() {
     }
 
 });
+
 
 
 
