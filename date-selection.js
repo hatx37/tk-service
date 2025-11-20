@@ -153,9 +153,11 @@ const companyServiceData = {
         lastServiceDate: '2024-12-07',
         nextServiceDate: '2025-06-07',
         serviceDates: {
-            '2022-09-29': ['C6(BIGASS)', 'C7(AIREGARD)', 'C8(AIREGARD)','C9(BIGASS)],
-            '2024-12178': ['Fan 1', 'Fan 2'],
-            '2024-11-26': ['Fan 3'],
+            '2022-09-29': ['C6(BIGASS)', 'C7(AIREGARD)', 'C8(AIREGARD)','C9(BIGASS)'，'C11(AIREGARD)', 'C14(BIGASS)', 'D15(AIREGARD)','E15(AIREGARD)','F14'],
+            '2023-04-09': ['C6(9)(BIGASS)', 'C7(AIREGARD)', 'C8(AIREGARD)','C9(BIGASS)'，'C10(AIREGARD)','C11(AIREGARD)', 'C14(6)(BIGASS)', 'D15(8)((AIREGARD)','E15(AIREGARD)','F14(AIREGARD)'],
+            '2023-10-07': ['B6','B7','B8','B10','C6','C7','C8','C9','C10','C11','C14','D15','E15','F14'],
+            '2024-05-04': ['B6(Fan 1)','B7(Fan 2)','B9(Fan 3)','B10(Fan 4)','C6(Fan 14)','C7(Fan 13)','C8(Fan 12)','C9(Fan 11)','C10(Fan 10)','C11(Fan 9)','C14(Fan 8)','D16(Fan 6)','F14(Fan 5)','F15 Keluar site(Fan 7)'],
+            '2024-12-07': ['AIREGARD(Fan 2)','AIREGARD(Fan 3)','AIREGARD(Fan 5)','AIREGARD(Fan 6)','AIREGARD(Fan 8)','AIREGARD(Fan 9)','BIGASS(Fan 1)','BIGASS(Fan 4)','BIGASS(Fan 7)','UHF-14(Fan 11)','UHF-14(Fan 12)','UHF-14(Fan 13)','UHF-14(Fan 14)',]
         }
     },
     'ISKANDAR EDUCATION ENTERPRISE SDN BHD': {
@@ -530,5 +532,6 @@ window.addEventListener('DOMContentLoaded', function() {
         datesListEl.innerHTML = '<p class="no-dates">No service dates available</p>';
     }
 });
+
 
 
