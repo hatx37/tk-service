@@ -153,7 +153,7 @@ const companyServiceData = {
         lastServiceDate: '2024-12-07',
         nextServiceDate: '2025-06-07',
         serviceDates: {
-            '2022-09-29': ['C6(BIGASS)', 'C7(AIREGARD)', 'C8(AIREGARD)','C9(BIGASS),'C11(AIREGARD)'],
+            '2022-09-29': ['C6(BIGASS)', 'C7(AIREGARD)', 'C8(AIREGARD)','C9(BIGASS)],
             '2024-12178': ['Fan 1', 'Fan 2'],
             '2024-11-26': ['Fan 3'],
         }
@@ -530,4 +530,5 @@ window.addEventListener('DOMContentLoaded', function() {
         datesListEl.innerHTML = '<p class="no-dates">No service dates available</p>';
     }
 });
+
 
