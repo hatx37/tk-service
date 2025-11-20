@@ -242,8 +242,7 @@ const companyServiceData = {
         lastServiceDate: '2025-03-22',
         nextServiceDate: '2026-03-22',
         serviceDates: {
-            '2025-02-11': ['Fan 1'],
-            '2025-01-30': ['Fan 1'],
+            '2025-03-22': ['Fan 3'],
         }
     },
     'PERODUA MANUFACTURING SDN BHD': {
@@ -251,15 +250,14 @@ const companyServiceData = {
         nextServiceDate: '2026-08-16',
         serviceDates: {
             '2023-10-28': ['Fan 1', 'Fan 2'],
-            '2025-08-26': ['Fan 1', 'Fan 2'],
+            '2025-08-16': ['Fan 1', 'Fan 2'],
         }
     },
     'REDVEST': {
-        lastServiceDate: '2025-02-13',
-        nextServiceDate: '2025-05-14',
+        lastServiceDate: '2025-06-17',
+        nextServiceDate: '2026-06-17',
         serviceDates: {
-            '2025-02-13': ['Fan 1'],
-            '2025-02-03': ['Fan 1'],
+            '2025-06-17': ['Fan 1','Fan 2','Fan 3'],
         }
     },
     'SAGA MAKMUR SDN BHD': {
@@ -507,6 +505,7 @@ window.addEventListener('DOMContentLoaded', function() {
         datesListEl.innerHTML = '<p class="no-dates">No service dates available</p>';
     }
 });
+
 
 
 
