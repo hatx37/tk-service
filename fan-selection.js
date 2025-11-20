@@ -15,7 +15,6 @@ const companyReportLinks = {
             'Fan 3': 'https://drive.google.com/drive/folders/1tfX_kEduVSVt-ZHJg-tDQnwoaShudfK1',
             'Fan 4': 'https://drive.google.com/drive/folders/1qIC4HxIbWf88BoDFkqqSXU8mthVKaGfV',
             'Fan 5': 'https://drive.google.com/drive/folders/14LbTOfVDkr4H6vSv3nwyokdnkNtNaaqM',
-
         },
         '2025-08-16': {
             'Fan 1': 'https://drive.google.com/drive/folders/1WN_vnj9_st_JSm7GXcPxuuMWGK0ygNsq',
@@ -23,7 +22,6 @@ const companyReportLinks = {
             'Fan 3': 'https://drive.google.com/drive/folders/1LKWzD-B7QHOzF4MDtmNIN3CXuvHTgXmB',
             'Fan 4': 'https://drive.google.com/drive/folders/1ph1CCmrLstHrgaJG0vmjrxXXqO1kphHv',
             'Fan 5': 'https://drive.google.com/drive/folders/1SipvpGLh_3oGBwSWTlKBABRGozRGxinQ',
-            
         },
         '2025-11-16': {
             'Fan 1': 'https://drive.google.com/drive/folders/1NDSWJwiPYw9wRl-jBdxoJXSWwuGKWcra',
@@ -31,7 +29,6 @@ const companyReportLinks = {
             'Fan 3': 'https://drive.google.com/drive/folders/11RcO0ibVI1n0QOtWGA9d-vTGJ5PzmRaL',
             'Fan 4': 'https://drive.google.com/drive/folders/1ARdZpEQnOTy549qEELMENftKsZ6WxFHu',
             'Fan 5': 'https://drive.google.com/drive/folders/1MlPdqc7tn-kl-0-8yHdrnkxRnZ_hXxJR',
-            
         },
         '2024-08-24': {
             'Fan 1': 'https://drive.google.com/drive/folders/1ru7ramSqE-2X5auSbzNZXVXDafrGuf7x',
@@ -434,6 +431,11 @@ const companyReportLinks = {
 
 // Format date to readable string
 function formatDate(dateString) {
+    // Handle special cases like 'Photo' or 'N/A'
+    if (dateString === 'Photo' || dateString === 'N/A') {
+        return dateString;
+    }
+    
     const options = { year: 'numeric', month: 'long', day: 'numeric' };
     const date = new Date(dateString);
     return date.toLocaleDateString('en-US', options);
@@ -469,7 +471,7 @@ function viewReport(fanName) {
         return;
     }
     
-    // Normalize company name for lookup
+    // Normalize company name for lookup (convert to uppercase for matching)
     const normalizedCompanyName = companyName.toUpperCase().trim();
     
     // Get the specific report URL for this company, date, and fan
@@ -540,7 +542,6 @@ window.addEventListener('DOMContentLoaded', function() {
             fanBtn.className = 'fan-btn';
             fanBtn.onclick = () => viewReport(fanName);
             fanBtn.innerHTML = `
-                <div class="fan-icon"> ⚙ </div>
                 <div class="fan-name">${fanName}</div>
                 <div class="fan-action">View Report →</div>
             `;
@@ -549,9 +550,7 @@ window.addEventListener('DOMContentLoaded', function() {
     } else {
         fanGridEl.innerHTML = '<p class="no-fans">No fans serviced on this date</p>';
     }
-
 });
-
 
 
 
