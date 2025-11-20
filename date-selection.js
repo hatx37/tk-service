@@ -261,79 +261,70 @@ const companyServiceData = {
         }
     },
     'SAGA MAKMUR SDN BHD': {
-        lastServiceDate: '2025-02-14',
-        nextServiceDate: '2025-05-15',
+        lastServiceDate: '2025-02-09',
+        nextServiceDate: '2026-02-109',
         serviceDates: {
-            '2025-02-14': ['Fan 1', 'Fan 2'],
-            '2025-02-05': ['Fan 1'],
-            '2025-01-20': ['Fan 2'],
+            '2025-02-09': ['Fan 1', 'Fan 2','Fan 3','Fan 4','Fan 5'],
+            '2025-03-25': ['Fan 4'],
+            '2025-04-09': ['Fan 3','FaN 4'],
         }
     },
     'SEA ASIA SDN BHD': {
-        lastServiceDate: '2025-02-15',
-        nextServiceDate: '2025-05-16',
+        lastServiceDate: '2024-07-14',
+        nextServiceDate: 'N/A',
         serviceDates: {
-            '2025-02-15': ['Fan 1'],
-            '2025-02-08': ['Fan 1'],
+            '2024-07-24': ['Fan 1','Fan 2','Fan 3'],
         }
     },
     'SIN TAI HING': {
-        lastServiceDate: '2025-02-16',
-        nextServiceDate: '2025-05-17',
+        lastServiceDate: '2025-03-10',
+        nextServiceDate: 'N/A',
         serviceDates: {
-            '2025-02-16': ['Fan 1', 'Fan 2'],
-            '2025-02-10': ['Fan 1'],
-            '2025-01-25': ['Fan 2'],
+            '2023-12-15': ['Fan 1', 'Fan 2'],
+            '2025-10-03': ['Fan 1','Fan 2'],
         }
     },
     'SJK(C) HUA LIAN 3': {
-        lastServiceDate: '2025-02-17',
-        nextServiceDate: '2025-05-18',
+        lastServiceDate: '2025-03-20',
+        nextServiceDate: '2026-03-20',
         serviceDates: {
-            '2025-02-17': ['Fan 1'],
-            '2025-02-12': ['Fan 1'],
+            '2024-04-06': ['Fan 1'],
+            '2025-03-20': ['Fan 1'],
         }
     },
     'SJK(C) KEHSENG': {
-        lastServiceDate: '2025-02-18',
-        nextServiceDate: '2025-05-19',
+        lastServiceDate: '2024-10-08',
+        nextServiceDate: 'N/A',
         serviceDates: {
-            '2025-02-18': ['Fan 1'],
-            '2025-02-14': ['Fan 1'],
+            '2025-10-08': ['Fan 1','Fan 2'],
         }
     },
     'SK SAUJANA IMPIAN 2': {
-        lastServiceDate: '2025-02-19',
-        nextServiceDate: '2025-05-20',
+        lastServiceDate: '2025-02-20',
+        nextServiceDate: '2026-05-22',
         serviceDates: {
-            '2025-02-19': ['Fan 1', 'Fan 2'],
-            '2025-02-15': ['Fan 1'],
-            '2025-02-05': ['Fan 2'],
+            '2025-02-20': ['Fan 1', 'Fan 2'],
         }
     },
     'SMK TELOK DATOK': {
-        lastServiceDate: '2025-02-20',
-        nextServiceDate: '2025-05-21',
+        lastServiceDate: '2025-05-22',
+        nextServiceDate: '2026-05-22',
         serviceDates: {
-            '2025-02-20': ['Fan 1'],
-            '2025-02-16': ['Fan 1'],
+            '2025-05-22': ['Fan 1','Fan 2'],
         }
     },
     'SUNSET': {
-        lastServiceDate: '2025-02-21',
-        nextServiceDate: '2025-05-22',
+        lastServiceDate: '2025-06-17',
+        nextServiceDate: '2026-06-17',
         serviceDates: {
-            '2025-02-21': ['Fan 1', 'Fan 2'],
-            '2025-02-18': ['Fan 1'],
-            '2025-02-10': ['Fan 2'],
+            '2025-06-17': ['Fan 1'],
         }
     },
     'T7 AERO REPORT': {
-        lastServiceDate: '2025-02-22',
-        nextServiceDate: '2025-05-23',
+        lastServiceDate: '2024-01-17',
+        nextServiceDate: 'N/A',
         serviceDates: {
-            '2025-02-22': ['Fan 1'],
-            '2025-02-20': ['Fan 1'],
+            '2024-01-17': ['Fan 1','Fan 2'],
         }
     },
     'TAYLOR (TEG)': {
@@ -364,147 +355,128 @@ const companyServiceData = {
     }
 };
 
-// Format date to readable string
-function formatDate(dateString) {
-    const options = { year: 'numeric', month: 'long', day: 'numeric' };
-    const date = new Date(dateString);
-    return date.toLocaleDateString('en-US', options);
-}
+// ========================================
+// PAGE INITIALIZATION
+// ========================================
 
-// Calculate days until next service
-function getDaysUntil(dateString) {
-    const today = new Date();
-    today.setHours(0, 0, 0, 0);
-    const targetDate = new Date(dateString);
-    targetDate.setHours(0, 0, 0, 0);
-    const diffTime = targetDate - today;
-    const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
-    
-    if (diffDays < 0) {
-        return 'Overdue';
-    } else if (diffDays === 0) {
-        return 'Today';
-    } else if (diffDays === 1) {
-        return 'Tomorrow';
-    } else {
-        return `in ${diffDays} days`;
-    }
-}
-
-// Toggle mobile menu
-function toggleMobileMenu() {
-    const menu = document.getElementById('mobile-menu');
-    menu.classList.toggle('active');
-}
-
-// Open WhatsApp
-function openWhatsApp() {
-    const whatsappNumber = '60111876933';
-    const message = 'Hello, I would like to inquire about your services.';
-    const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}`;
-    window.open(whatsappUrl, '_blank');
-}
-
-// Go back to password page
-function goBack() {
-    window.location.href = 'password.html';
-}
-
-// Select a specific date - saves date and proceeds to fan selection
-function selectServiceDate(dateString) {
+window.addEventListener('DOMContentLoaded', function() {
     const companyName = localStorage.getItem('companyName');
     
     if (!companyName) {
-        alert('Company name not found. Please start over.');
+        alert('No company selected. Redirecting to home page.');
         window.location.href = 'index.html';
         return;
     }
-    
-    // Normalize company name for lookup
-    const normalizedCompanyName = companyName.toUpperCase().trim();
-    
-    // Get company service data
-    const companyData = companyServiceData[normalizedCompanyName];
+
+    const companyData = companyServiceData[companyName];
     
     if (!companyData) {
         alert('No service data found for this company.');
+        window.location.href = 'index.html';
         return;
     }
+
+    // Display company name
+    document.getElementById('companyDisplay').textContent = companyName;
+
+    // Display last service date
+    document.getElementById('lastServiceDate').textContent = formatDate(companyData.lastServiceDate);
+
+    // Display next service date with days remaining
+    const nextDateElement = document.getElementById('nextServiceDate');
+    const daysElement = document.getElementById('daysUntilNext');
     
-    // Get fans serviced on this date
-    const fansServiced = companyData.serviceDates[dateString];
-    
-    if (!fansServiced || fansServiced.length === 0) {
-        alert(`No fans were serviced on ${formatDate(dateString)}. Please select another date.`);
+    // Check if next service date is N/A
+    if (companyData.nextServiceDate === 'N/A' || !companyData.nextServiceDate) {
+        nextDateElement.textContent = 'N/A';
+        daysElement.textContent = '';
+        daysElement.style.display = 'none';
+    } else {
+        nextDateElement.textContent = formatDate(companyData.nextServiceDate);
+        
+        const daysUntil = calculateDaysUntil(companyData.nextServiceDate);
+        if (daysUntil > 0) {
+            daysElement.textContent = `(${daysUntil} days remaining)`;
+            daysElement.style.color = 'rgba(255, 255, 255, 0.7)';
+        } else if (daysUntil === 0) {
+            daysElement.textContent = '(Today!)';
+            daysElement.style.color = '#4CAF50';
+        } else {
+            daysElement.textContent = '(Overdue)';
+            daysElement.style.color = '#ff6b6b';
+        }
+        daysElement.style.display = 'block';
+    }
+
+    // Display available service dates
+    displayServiceDates(companyData.serviceDates);
+});
+
+// ========================================
+// DISPLAY SERVICE DATES - ONLY DATES, NO FAN COUNT
+// ========================================
+
+function displayServiceDates(serviceDates) {
+    const datesListElement = document.getElementById('datesList');
+    datesListElement.innerHTML = '';
+
+    // Sort dates in descending order (most recent first)
+    const sortedDates = Object.keys(serviceDates).sort((a, b) => new Date(b) - new Date(a));
+
+    if (sortedDates.length === 0) {
+        datesListElement.innerHTML = '<p style="color: rgba(255, 255, 255, 0.8); text-align: center;">No service reports available</p>';
         return;
     }
-    
-    // Store the selected date and fans serviced
-    localStorage.setItem('selectedServiceDate', dateString);
-    localStorage.setItem('fansServiced', JSON.stringify(fansServiced));
+
+    sortedDates.forEach(date => {
+        const dateButton = document.createElement('button');
+        dateButton.className = 'date-item';
+        dateButton.onclick = () => selectDate(date);
+        
+        // Only show the date, no fan information
+        dateButton.innerHTML = `
+            <span>📅 ${formatDate(date)}</span>
+        `;
+        
+        datesListElement.appendChild(dateButton);
+    });
+}
+
+// ========================================
+// DATE SELECTION
+// ========================================
+
+function selectDate(selectedDate) {
+    // Store selected date
+    localStorage.setItem('selectedDate', selectedDate);
     
     // Redirect to fan selection page
     window.location.href = 'fan-selection.html';
 }
 
-// Load company service data and display available dates
-window.addEventListener('DOMContentLoaded', function() {
-    const companyName = localStorage.getItem('companyName');
-    const companyDisplay = document.getElementById('companyDisplay');
-    const lastServiceDateEl = document.getElementById('lastServiceDate');
-    const nextServiceDateEl = document.getElementById('nextServiceDate');
-    const datesListEl = document.getElementById('datesList');
+// ========================================
+// UTILITY FUNCTIONS
+// ========================================
+
+function formatDate(dateString) {
+    const date = new Date(dateString);
+    const options = { year: 'numeric', month: 'long', day: 'numeric' };
+    return date.toLocaleDateString('en-US', options);
+}
+
+function calculateDaysUntil(dateString) {
+    const today = new Date();
+    today.setHours(0, 0, 0, 0);
     
-    if (!companyName) {
-        // If no company name, redirect back to search
-        window.location.href = 'index.html';
-        return;
-    }
+    const targetDate = new Date(dateString);
+    targetDate.setHours(0, 0, 0, 0);
     
-    companyDisplay.textContent = companyName;
+    const diffTime = targetDate - today;
+    const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
     
-    // Normalize company name for lookup
-    const normalizedCompanyName = companyName.toUpperCase().trim();
-    
-    // Get company service data
-    const companyData = companyServiceData[normalizedCompanyName];
-    
-    if (!companyData) {
-        lastServiceDateEl.textContent = 'No data available';
-        nextServiceDateEl.textContent = 'No data available';
-        datesListEl.innerHTML = '<p class="no-dates">No service dates found</p>';
-        return;
-    }
-    
-    // Display last service date
-    const lastDate = formatDate(companyData.lastServiceDate);
-    lastServiceDateEl.innerHTML = `<strong>${lastDate}</strong>`;
-    
-    // Display next service date with countdown
-    const nextDate = formatDate(companyData.nextServiceDate);
-    const daysUntil = getDaysUntil(companyData.nextServiceDate);
-    nextServiceDateEl.innerHTML = `<strong>${nextDate}</strong><br><span class="days-until">(${daysUntil})</span>`;
-    
-    // Display available service dates as clickable buttons
-    const serviceDates = Object.keys(companyData.serviceDates).sort().reverse();
-    
-    if (serviceDates.length > 0) {
-        datesListEl.innerHTML = '<h3 style="color: #1a73e8; margin-bottom: 15px; text-align: center;">📅 Select Service Date</h3>';
-        serviceDates.forEach(date => {
-            const fans = companyData.serviceDates[date];
-            const dateBtn = document.createElement('button');
-            dateBtn.className = 'date-btn';
-            dateBtn.onclick = () => selectServiceDate(date);
-            dateBtn.innerHTML = `
-                <span class="date-btn-date">${formatDate(date)}</span>
-                <span class="date-btn-fans">${fans.length} fan(s) serviced: ${fans.join(', ')}</span>
-            `;
-            datesListEl.appendChild(dateBtn);
-        });
-    } else {
-        datesListEl.innerHTML = '<p class="no-dates">No service dates available</p>';
-    }
-});
+    return diffDays;
+}
+
 
 
 
