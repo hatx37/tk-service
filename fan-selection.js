@@ -426,6 +426,11 @@ const companyReportLinks = {
         '2025-07-25': {
             'Fan 1': 'https://drive.google.com/drive/u/2/folders/1fEEStmL9l-re8yXoe4ekW0QURSC58vkW',
         }
+    },
+    'YINGWAH': {
+        '2025-06-17': {
+            'Fan 1': 'https://drive.google.com/drive/u/2/folders/1CdKM1NjDwTTxhncA8CsoEt5KJNAQGT7i',
+        }
     }
 };
 
@@ -546,6 +551,7 @@ window.addEventListener('DOMContentLoaded', function() {
         fanGridEl.innerHTML = '<p class="no-fans">No fans serviced on this date</p>';
     }
 });
+
 
 
 
