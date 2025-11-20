@@ -21,7 +21,7 @@ const companyData = {
     'GOOD TIMING FOOD VILLAGE': { password: 'Good@tkfant' },
     'HONDA LOGISTICS': { password: 'Honda@tkfant' },
     'ISKANDAR EDUCATION ENTERPRISE SDN BHD': { password: 'Iskandaredu@tkfant' },
-    'ISKANDAR INNOVATIONS SDN BHD': { password: 'Islandarin@tkfant' },
+    'ISKANDAR INNOVATIONS SDN BHD': { password: 'Iskandarin@tkfant' },
     'JOYCAMP PJ SDN BHD': { password: 'Joy@tkfant' },
     'KOH TIKI OKR SDN BHD': { password: 'Koh@tkfant' },
     'KUEHNE + NAGEL': { password: 'Kuehne@tkfant' },
@@ -169,6 +169,7 @@ function showError(message) {
         errorMessage.style.display = 'none';
     }, 5000);
 }
+
 
 
 
