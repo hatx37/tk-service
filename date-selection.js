@@ -266,7 +266,7 @@ const companyServiceData = {
         serviceDates: {
             '2025-02-09': ['Fan 1', 'Fan 2','Fan 3','Fan 4','Fan 5'],
             '2025-03-25': ['Fan 4'],
-            '2025-04-09': ['Fan 3','FaN 4'],
+            '2025-04-09': ['Fan 3','Fan 4'],
         }
     },
     'SEA ASIA SDN BHD': {
@@ -471,6 +471,7 @@ function calculateDaysUntil(dateString) {
     
     return diffDays;
 }
+
 
 
 
