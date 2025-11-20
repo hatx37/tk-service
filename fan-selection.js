@@ -342,62 +342,72 @@ const companyReportLinks = {
         }
     },
     'SEA ASIA SDN BHD': {
-        '2025-02-15': {
+        '2024-07-24': {
             'Fan 1': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
+            'Fan 2': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
+            'Fan 3': 'https://drive.google.com/drive/folders/1tfX_kEduVSVt-ZHJg-tDQnwoaShudfK1',
         }
     },
     'SIN TAI HING': {
-        '2025-02-16': {
+        '2023-12-15': {
             'Fan 1': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
             'Fan 2': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
+        },
+        '2025-10-03': {
+            'Fan 1': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
+            'Fan 2': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view', 
         }
     },
     'SJK(C) HUA LIAN 3': {
-        '2025-02-17': {
+        '2024-04-06': {
+            'Fan 1': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
+        },
+        '2025-03-20': {
             'Fan 1': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
         }
     },
     'SJK(C) KEHSENG': {
-        '2025-02-18': {
+        '2025-10-08': {
             'Fan 1': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
+            'Fan 2': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
         }
     },
     'SK SAUJANA IMPIAN 2': {
-        '2025-02-19': {
+        '2025-02-20': {
             'Fan 1': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
             'Fan 2': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
         }
     },
     'SMK TELOK DATOK': {
-        '2025-02-20': {
-            'Fan 1': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
-        }
-    },
-    'SUNSET': {
-        '2025-02-21': {
+        '2025-05-22': {
             'Fan 1': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
             'Fan 2': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
         }
     },
-    'T7 AERO REPORT': {
-        '2025-02-22': {
+    'SUNSET': {
+        '2025-06-17': {
             'Fan 1': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
         }
     },
+    'T7 AERO REPORT': {
+        '2024-01-17': {
+            'Fan 1': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
+            'Fan 2': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
+        }
+    },
     'TAYLOR (TEG)': {
-        '2025-02-23': {
+        '2025-10-18': {
             'Fan 1': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
             'Fan 2': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
         }
     },
     'UCSI INTERNATIONAL SCHOOL SB': {
-        '2025-02-24': {
-            'Fan 1': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
-            'Fan 2': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
+        '2025-08-06': {
+            'Fan 4': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
         }
     },
     'UPPER HERITAGE SDN BHD': {
-        '2025-02-25': {
+        '2025-06-17': {
             'Fan 1': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
         }
     }
@@ -522,6 +532,7 @@ window.addEventListener('DOMContentLoaded', function() {
     }
 
 });
+
 
 
 
