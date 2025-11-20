@@ -46,7 +46,8 @@ const companies = [
     'T7 AERO REPORT',
     'TAYLOR (TEG)',
     'UCSI INTERNATIONAL SCHOOL SB',
-    'UPPER HERITAGE SDN BHD'
+    'UPPER HERITAGE SDN BHD',
+    'YINGWAH'
 ];
 
 // ==================== MOBILE MENU ====================
@@ -167,3 +168,4 @@ if (contactForm) {
         contactForm.reset();
     });
 }
+
