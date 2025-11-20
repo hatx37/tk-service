@@ -106,7 +106,6 @@ const companyServiceData = {
         nextServiceDate: '2026-04-16',
         serviceDates: {
             '2025-04-16': ['Fan 1', 'Fan 2'],
-        
         }
     },
     'FINEGUARD INDUSTRIES': {
@@ -114,7 +113,6 @@ const companyServiceData = {
         nextServiceDate: '2026-07-04',
         serviceDates: {
             '2025-07-04': ['Fan 1'],
-        
         }
     },
     'FOODAGON CONNEXION SDN BHD': {
@@ -122,7 +120,6 @@ const companyServiceData = {
         nextServiceDate: '2026-05-12',
         serviceDates: {
             '2025-05-12': ['Fan 1'],
-           
         }
     },
     'FURI GLOBAL SDN BHD': {
@@ -130,7 +127,6 @@ const companyServiceData = {
         nextServiceDate: '2026-09-08',
         serviceDates: {
             '2025-09-08': ['Fan 1'],
-           
         }
     },
     'GBB BAKERY': {
@@ -138,7 +134,6 @@ const companyServiceData = {
         nextServiceDate: '2025-01-05',
         serviceDates: {
             '2024-01-05': ['Fan 1'],
-
         }
     },
     'GOOD TIMING FOOD VILLAGE': {
@@ -146,7 +141,6 @@ const companyServiceData = {
         nextServiceDate: '2026-07-30',
         serviceDates: {
             '2025-07-30': ['Fan 2'],
-        
         }
     },
     'HONDA LOGISTICS': {
@@ -161,122 +155,103 @@ const companyServiceData = {
         }
     },
     'ISKANDAR EDUCATION ENTERPRISE SDN BHD': {
-        lastServiceDate: '2025-01-30',
-        nextServiceDate: '2025-04-30',
+        lastServiceDate: '2025-08-01',
+        nextServiceDate: '2026-08-01',
         serviceDates: {
-            '2025-01-30': ['Fan 1'],
-            '2024-12-30': ['Fan 1'],
+            '2025-08-01': ['Fan 1','Fan 2'],
         }
     },
     'ISKANDAR INNOVATIONS SDN BHD': {
-        lastServiceDate: '2025-01-31',
-        nextServiceDate: '2025-05-01',
+        lastServiceDate: '2024-06-25',
+        nextServiceDate: '2025-06-25',
         serviceDates: {
-            '2025-01-31': ['Fan 1'],
-            '2024-12-29': ['Fan 1'],
+            '2024-06-25': ['Fan 1','Fan 2','Fan 3','Fan 4','Fan 5','Fan 6','Fan 7','Fan 8'],
         }
     },
     'JOYCAMP PJ SDN BHD': {
-        lastServiceDate: '2025-02-01',
-        nextServiceDate: '2025-05-02',
+        lastServiceDate: '2024-10-26',
+        nextServiceDate: '2025-10-26',
         serviceDates: {
-            '2025-02-01': ['Fan 1', 'Fan 2'],
-            '2025-01-05': ['Fan 1'],
-            '2024-12-15': ['Fan 2'],
+            '2024-10-26': ['Fan 1'],
         }
     },
     'KOH TIKI OKR SDN BHD': {
-        lastServiceDate: '2025-02-02',
-        nextServiceDate: '2025-05-03',
+        lastServiceDate: '2025-06-09',
+        nextServiceDate: '2026-06-09',
         serviceDates: {
-            '2025-02-02': ['Fan 1'],
-            '2025-01-10': ['Fan 1'],
+            '2025-06-09': ['Fan 1','Fan 2'],
         }
     },
     'KUEHNE + NAGEL': {
-        lastServiceDate: '2025-02-03',
-        nextServiceDate: '2025-05-04',
+        lastServiceDate: '2023-12-19',
+        nextServiceDate: 'N/A',
         serviceDates: {
-            '2025-02-03': ['Fan 1', 'Fan 2'],
-            '2025-01-08': ['Fan 1'],
-            '2024-12-20': ['Fan 2'],
+            '2023-12-19': ['Fan 1(Site A)', 'Fan 2(Site A)','Fan 3(Site A)','Fan 4(Site A)','Fan 5(Site B)','Fan 6(Site B)','Fan 7(Site B)','Fan 8(D16/D18)','Fan 9(D16/D18)','Fan 10(D16/D18)',],
         }
     },
     'LH ELECTRIC & SERVICES': {
-        lastServiceDate: '2025-02-04',
-        nextServiceDate: '2025-05-05',
+        lastServiceDate: '2025-04-25',
+        nextServiceDate: '2026-04-25',
         serviceDates: {
-            '2025-02-04': ['Fan 1'],
-            '2025-01-12': ['Fan 1'],
+            '2025-04-25': ['Fan 1','Fan 2'],
         }
     },
     'LOTUS\'S STORE (MALAYSIA) SDN BHD': {
-        lastServiceDate: '2025-02-05',
-        nextServiceDate: '2025-05-06',
+        lastServiceDate: '2025-02-12',
+        nextServiceDate: '2025-07-01',
         serviceDates: {
-            '2025-02-05': ['Fan 1', 'Fan 2', 'Fan 3'],
-            '2025-01-15': ['Fan 1', 'Fan 2'],
-            '2024-12-18': ['Fan 3'],
+            '2025-02-12': ['G1', 'G2', 'G3','G4','G5','G6','G8','G9','G10','G11','G12','G14','G16','G17','G18'],
         }
     },
     'LUXE ACRE SDN BHD': {
-        lastServiceDate: '2025-02-06',
-        nextServiceDate: '2025-05-07',
+        lastServiceDate: '2025-03-07',
+        nextServiceDate: '2025-03-07',
         serviceDates: {
-            '2025-02-06': ['Fan 1'],
-            '2025-01-18': ['Fan 1'],
+            '2025-03-07': ['Fan 1'],
         }
     },
     'MACRO PERSPECTIVE SDN BHD': {
-        lastServiceDate: '2025-02-07',
-        nextServiceDate: '2025-05-08',
+        lastServiceDate: '2025-05-14',
+        nextServiceDate: '2026-05-14',
         serviceDates: {
-            '2025-02-07': ['Fan 1', 'Fan 2'],
-            '2025-01-20': ['Fan 1'],
-            '2024-12-25': ['Fan 2'],
+            '2025-05-14': ['Fan 1'],
         }
     },
     'MILLENNIUM WELT SDN BHD': {
-        lastServiceDate: '2025-02-08',
-        nextServiceDate: '2025-05-09',
+        lastServiceDate: '2025-02-05',
+        nextServiceDate: 'N/A',
         serviceDates: {
-            '2025-02-08': ['Fan 1'],
-            '2025-01-22': ['Fan 1'],
+            '2025-02-05': ['Fan 1','Fan 2','Fan 3'],
         }
     },
     'NESTLE MANUFACTURING (M) SDN BHD (CHEMBONG)': {
-        lastServiceDate: '2025-02-09',
-        nextServiceDate: '2025-05-10',
+        lastServiceDate: '2025-08-30',
+        nextServiceDate: 'N/A',
         serviceDates: {
-            '2025-02-09': ['Fan 1', 'Fan 2', 'Fan 3'],
-            '2025-01-25': ['Fan 1', 'Fan 2'],
-            '2024-12-28': ['Fan 3'],
+            '2025-02-05': ['Fan 1'],
         }
     },
     'NESTLE MANUFACTURING (M) SDN BHD (SA)': {
-        lastServiceDate: '2025-02-10',
-        nextServiceDate: '2025-05-11',
+        lastServiceDate: '2025-04-04',
+        nextServiceDate: '2026-04-05',
         serviceDates: {
-            '2025-02-10': ['Fan 1', 'Fan 2'],
-            '2025-01-28': ['Fan 1'],
-            '2024-12-30': ['Fan 2'],
+            '2025-04-04': ['Fan 1', 'Fan 2','Fan 3','Fan 4','Fan 5','Fan 6'],
         }
     },
     'PERCETAKAN TENAGA': {
-        lastServiceDate: '2025-02-11',
-        nextServiceDate: '2025-05-12',
+        lastServiceDate: '2025-03-22',
+        nextServiceDate: '2026-03-22',
         serviceDates: {
             '2025-02-11': ['Fan 1'],
             '2025-01-30': ['Fan 1'],
         }
     },
     'PERODUA MANUFACTURING SDN BHD': {
-        lastServiceDate: '2025-02-12',
-        nextServiceDate: '2025-05-13',
+        lastServiceDate: '2025-08-16',
+        nextServiceDate: '2026-08-16',
         serviceDates: {
-            '2025-02-12': ['Fan 1', 'Fan 2', 'Fan 3'],
-            '2025-02-01': ['Fan 1', 'Fan 2'],
-            '2025-01-15': ['Fan 3'],
+            '2023-10-28': ['Fan 1', 'Fan 2'],
+            '2025-08-26': ['Fan 1', 'Fan 2'],
         }
     },
     'REDVEST': {
@@ -532,6 +507,7 @@ window.addEventListener('DOMContentLoaded', function() {
         datesListEl.innerHTML = '<p class="no-dates">No service dates available</p>';
     }
 });
+
 
 
 
