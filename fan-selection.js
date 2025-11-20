@@ -9,7 +9,7 @@ const companyReportLinks = {
         }
     },
     'AKER SOLUTIONS': {
-        '2025-03-28': {
+        '2025-08-30': {
             'Fan 1': 'https://drive.google.com/drive/folders/1F222aStI_HXgnj6O8PBQBivzjB5V8AFa',
             'Fan 2': 'https://drive.google.com/drive/folders/1-uDQQ_JqhY5J8CTiq2ikuiITVJlr_8DC',
             'Fan 3': 'https://drive.google.com/drive/folders/1tfX_kEduVSVt-ZHJg-tDQnwoaShudfK1',
@@ -17,80 +17,80 @@ const companyReportLinks = {
             'Fan 5': 'https://drive.google.com/drive/folders/14LbTOfVDkr4H6vSv3nwyokdnkNtNaaqM',
 
         },
-        '2025-03-28': {
-            'Fan 1': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
-            'Fan 2': 'https://drive.google.com/drive/folders/1-uDQQ_JqhY5J8CTiq2ikuiITVJlr_8DC',
-            'Fan 3': 'https://drive.google.com/drive/folders/1tfX_kEduVSVt-ZHJg-tDQnwoaShudfK1',
-            'Fan 4': 'https://drive.google.com/drive/folders/1qIC4HxIbWf88BoDFkqqSXU8mthVKaGfV',
-            'Fan 5': 'https://drive.google.com/drive/folders/14LbTOfVDkr4H6vSv3nwyokdnkNtNaaqM',
+        '2025-08-16': {
+            'Fan 1': 'https://drive.google.com/drive/folders/1WN_vnj9_st_JSm7GXcPxuuMWGK0ygNsq',
+            'Fan 2': 'https://drive.google.com/drive/folders/1lAX-IvouUH2HjTIZZT9_0FUYRHeJS05f',
+            'Fan 3': 'https://drive.google.com/drive/folders/1LKWzD-B7QHOzF4MDtmNIN3CXuvHTgXmB',
+            'Fan 4': 'https://drive.google.com/drive/folders/1ph1CCmrLstHrgaJG0vmjrxXXqO1kphHv',
+            'Fan 5': 'https://drive.google.com/drive/folders/1SipvpGLh_3oGBwSWTlKBABRGozRGxinQ',
             
         },
-        '2025-03-28': {
-            'Fan 1': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
-            'Fan 2': 'https://drive.google.com/drive/folders/1-uDQQ_JqhY5J8CTiq2ikuiITVJlr_8DC',
-            'Fan 3': 'https://drive.google.com/drive/folders/1tfX_kEduVSVt-ZHJg-tDQnwoaShudfK1',
-            'Fan 4': 'https://drive.google.com/drive/folders/1qIC4HxIbWf88BoDFkqqSXU8mthVKaGfV',
-            'Fan 5': 'https://drive.google.com/drive/folders/14LbTOfVDkr4H6vSv3nwyokdnkNtNaaqM',
+        '2025-11-16': {
+            'Fan 1': 'https://drive.google.com/drive/folders/1NDSWJwiPYw9wRl-jBdxoJXSWwuGKWcra',
+            'Fan 2': 'https://drive.google.com/drive/folders/1en6FSGYlh_ESrHV6DFhufsqQTtoE7O4l',
+            'Fan 3': 'https://drive.google.com/drive/folders/11RcO0ibVI1n0QOtWGA9d-vTGJ5PzmRaL',
+            'Fan 4': 'https://drive.google.com/drive/folders/1ARdZpEQnOTy549qEELMENftKsZ6WxFHu',
+            'Fan 5': 'https://drive.google.com/drive/folders/1MlPdqc7tn-kl-0-8yHdrnkxRnZ_hXxJR',
             
         },
-        '2025-03-28': {
-            'Fan 1': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
-            'Fan 2': 'https://drive.google.com/drive/folders/1-uDQQ_JqhY5J8CTiq2ikuiITVJlr_8DC',
-            'Fan 3': 'https://drive.google.com/drive/folders/1tfX_kEduVSVt-ZHJg-tDQnwoaShudfK1',
-            'Fan 4': 'https://drive.google.com/drive/folders/1qIC4HxIbWf88BoDFkqqSXU8mthVKaGfV',
-            'Fan 5': 'https://drive.google.com/drive/folders/14LbTOfVDkr4H6vSv3nwyokdnkNtNaaqM',
+        '2024-08-24': {
+            'Fan 1': 'https://drive.google.com/drive/folders/1ru7ramSqE-2X5auSbzNZXVXDafrGuf7x',
+            'Fan 2': 'https://drive.google.com/drive/folders/17UHC1lTYrs_GGXMMDgbvNRb2RgClFc7T',
+            'Fan 3': 'https://drive.google.com/drive/folders/172lfcJSOWkoxCSj5XbYbd7TzrKODv03M',
+            'Fan 4': 'https://drive.google.com/drive/folders/10x0zdrKVqSP5_DOWiSgWC3XfzbVvCHn8',
+            'Fan 5': 'https://drive.google.com/drive/folders/1Y9W6pQunGcU8nVwo9-YoO83NeFDLizh3',
         }
     },
     'ANSHIN': {
-        '2025-01-20': {
+        '2025-01-07': {
             'Fan 1': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
             'Fan 2': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
             'Fan 3': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
-            'Fan 4': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
         }
     },
     'ARATA AUTO CENTRE SDN BHD': {
-        '2025-01-12': {
+        '2025-04-22': {
             'Fan 1': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
-            'Fan 2': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
         }
     },
     'BBCC DEVELOPMENT': {
-        '2025-01-18': {
-            'Fan 1': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
-            'Fan 2': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
-            'Fan 3': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
+        '2025-03-27': {
+            'Fan 6': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
         }
     },
     'CITY UNIVERSITY': {
-        '2025-01-14': {
+        '2024-01-16': {
             'Fan 1': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
-            'Fan 2': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
         }
     },
     'CLICKASIA SDN BHD': {
-        '2025-01-16': {
-            'Fan 1': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
-        }
-    },
-    'DATARAN SEGAR HUAT HUAT HUAT FOOD COURT': {
-        '2025-01-11': {
-            'Fan 1': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
-            'Fan 2': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
-        }
-    },
-    'DHUB': {
-        '2025-01-19': {
+        '2025-06-13': {
             'Fan 1': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
             'Fan 2': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
             'Fan 3': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
         }
     },
+    'DATARAN SEGAR HUAT HUAT HUAT FOOD COURT': {
+        '2022-06-27': {
+            'Fan 1': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
+        },
+        '2022-06-27': {
+            'Fan 1': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
+        }     
+    },
+    'DHUB': {
+        'Photo': {
+            'Fan 1': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
+        }
+    },
     'ECRL': {
-        '2025-01-13': {
+        '2025-05-02': {
             'Fan 1': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
             'Fan 2': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
-        }
+        },
+        2025-05-05': {
+            'Fan 1': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
+        }        
     },
     'EXHIBITION SAMPLE': {
         '2025-01-17': {
@@ -423,4 +423,5 @@ window.addEventListener('DOMContentLoaded', function() {
     }
 
 });
+
 
