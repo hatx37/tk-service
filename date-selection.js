@@ -443,7 +443,7 @@ function displayServiceDates(serviceDates) {
 
 function selectDate(selectedDate) {
     // Store selected date
-    localStorage.setItem('selectedDate', selectedDate);
+    localStorage.setItem('selectedServiceDate', selectedDate);
     
     // Redirect to fan selection page
     window.location.href = 'fan-selection.html';
@@ -471,6 +471,7 @@ function calculateDaysUntil(dateString) {
     
     return diffDays;
 }
+
 
 
 
