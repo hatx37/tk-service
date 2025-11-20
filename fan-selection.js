@@ -88,7 +88,7 @@ const companyReportLinks = {
             'Fan 1': 'https://drive.google.com/drive/folders/1HQ551tl9ZEfAZfXQIrFLtq8rzX8E5EBD',
             'Fan 2': 'https://drive.google.com/drive/folders/127e4eh-GUpvL2XbmY4q1WlV0igvEA1kS',
         },
-        2025-05-05': {
+        '2025-05-05': {
             'Fan 1': 'https://drive.google.com/drive/folders/1eomrJGC-bZyBJpVx3cnq8vREZ8vurECq',
         }        
     },
@@ -551,6 +551,7 @@ window.addEventListener('DOMContentLoaded', function() {
     }
 
 });
+
 
 
 
