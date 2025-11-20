@@ -542,6 +542,7 @@ window.addEventListener('DOMContentLoaded', function() {
             fanBtn.className = 'fan-btn';
             fanBtn.onclick = () => viewReport(fanName);
             fanBtn.innerHTML = `
+                <div class="fan-icon"> ⚙ </div>
                 <div class="fan-name">${fanName}</div>
                 <div class="fan-action">View Report →</div>
             `;
@@ -551,6 +552,7 @@ window.addEventListener('DOMContentLoaded', function() {
         fanGridEl.innerHTML = '<p class="no-fans">No fans serviced on this date</p>';
     }
 });
+
 
 
 
