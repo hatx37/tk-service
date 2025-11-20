@@ -11,171 +11,150 @@ const companyServiceData = {
         }
     },
     'AKER SOLUTIONS': {
-        lastServiceDate: '2025-01-10',
-        nextServiceDate: '2025-04-10',
+        lastServiceDate: '2025-08-16',
+        nextServiceDate: '2026-08-16',
         serviceDates: {
-            '2025-01-10': ['Fan 1', 'Fan 2'],
-            '2024-12-15': ['Fan 1'],
-            '2024-11-22': ['Fan 2'],
-            '2024-11-05': ['Fan 1', 'Fan 2'],
+            '2025-08-30': ['Fan 1', 'Fan 2','Fan 3','Fan 4','Fan 5'],
+            '2025-08-16': ['Fan 1', 'Fan 2','Fan 3','Fan 4','Fan 5'],
+            '2025-11-16': ['Fan 1', 'Fan 2','Fan 3','Fan 4','Fan 5'],
+            '2024-08-24': ['Fan 1', 'Fan 2','Fan 3','Fan 4','Fan 5'],
         }
     },
     'ANSHIN': {
-        lastServiceDate: '2025-01-20',
-        nextServiceDate: '2025-04-20',
+        lastServiceDate: '2025-01-07',
+        nextServiceDate: '2026-01-07',
         serviceDates: {
-            '2025-01-20': ['Fan 1', 'Fan 2', 'Fan 3', 'Fan 4'],
-            '2024-12-18': ['Fan 1', 'Fan 2'],
-            '2024-11-25': ['Fan 3', 'Fan 4'],
-            '2024-11-10': ['Fan 1', 'Fan 3'],
+            '2025-01-07': ['Fan 1', 'Fan 2', 'Fan 3'],
         }
     },
     'ARATA AUTO CENTRE SDN BHD': {
-        lastServiceDate: '2025-01-12',
-        nextServiceDate: '2025-04-12',
+        lastServiceDate: '2025-04-22',
+        nextServiceDate: '2026-04-22',
         serviceDates: {
-            '2025-01-12': ['Fan 1', 'Fan 2'],
-            '2024-12-08': ['Fan 1'],
-            '2024-11-20': ['Fan 2'],
+            '2025-04-22': ['Fan 1'],
         }
     },
     'BBCC DEVELOPMENT': {
-        lastServiceDate: '2025-01-18',
-        nextServiceDate: '2025-04-18',
+        lastServiceDate: '2025-03-27',
+        nextServiceDate: '2026-09-27',
         serviceDates: {
-            '2025-01-18': ['Fan 1', 'Fan 2', 'Fan 3'],
-            '2024-12-12': ['Fan 1', 'Fan 2'],
-            '2024-11-28': ['Fan 3'],
+            '2025-03-27': ['Fan 6'],
         }
     },
     'CITY UNIVERSITY': {
-        lastServiceDate: '2025-01-14',
-        nextServiceDate: '2025-04-14',
+        lastServiceDate: '2024-01-16',
+        nextServiceDate: 'N/A',
         serviceDates: {
-            '2025-01-14': ['Fan 1', 'Fan 2'],
-            '2024-12-10': ['Fan 1'],
-            '2024-11-18': ['Fan 2'],
+            '2024-01-16': ['Fan 1'],
         }
     },
     'CLICKASIA SDN BHD': {
-        lastServiceDate: '2025-01-16',
-        nextServiceDate: '2025-04-16',
+        lastServiceDate: '2025-06-13',
+        nextServiceDate: '2026-06-13',
         serviceDates: {
-            '2025-01-16': ['Fan 1'],
-            '2024-12-14': ['Fan 1'],
-            '2024-11-12': ['Fan 1'],
+            '2025-06-13': ['Fan 1','Fan 2', 'Fan 3'],
         }
     },
     'DATARAN SEGAR HUAT HUAT HUAT FOOD COURT': {
-        lastServiceDate: '2025-01-11',
-        nextServiceDate: '2025-04-11',
+        lastServiceDate: '2025-05-20',
+        nextServiceDate: '2026-05-20',
         serviceDates: {
-            '2025-01-11': ['Fan 1', 'Fan 2'],
-            '2024-12-09': ['Fan 1'],
-            '2024-11-15': ['Fan 2'],
+            '2022-06-27': ['Fan 1'],
+            '2025-05-20': ['Fan 1'],
         }
     },
     'DHUB': {
-        lastServiceDate: '2025-01-19',
-        nextServiceDate: '2025-04-19',
+        lastServiceDate: 'N/A',
+        nextServiceDate: 'N/A',
         serviceDates: {
-            '2025-01-19': ['Fan 1', 'Fan 2', 'Fan 3'],
-            '2024-12-16': ['Fan 1', 'Fan 2'],
-            '2024-11-22': ['Fan 3'],
+            'Photo': ['Fan 1'],
         }
     },
     'ECRL': {
-        lastServiceDate: '2025-01-13',
-        nextServiceDate: '2025-04-13',
+        lastServiceDate: '2025-05-02',
+        nextServiceDate: '2026-05-02',
         serviceDates: {
-            '2025-01-13': ['Fan 1', 'Fan 2'],
-            '2024-12-11': ['Fan 1'],
-            '2024-11-19': ['Fan 2'],
+            '2025-05-02': ['Fan 1', 'Fan 2'],
+            '2025-05-05': ['Fan 1'],
         }
     },
     'EXHIBITION SAMPLE': {
-        lastServiceDate: '2025-01-17',
-        nextServiceDate: '2025-04-17',
+        lastServiceDate: 'N/A',
+        nextServiceDate: 'N/A',
         serviceDates: {
-            '2025-01-17': ['Fan 1'],
-            '2024-12-15': ['Fan 1'],
+            '2025-04-25': ['Fan 1','Fan 2'],
+            '2054-06-10': ['Fan 1','Fan 2'],
         }
     },
     'FEDEX-BUKIT JELUTONG': {
-        lastServiceDate: '2025-01-21',
-        nextServiceDate: '2025-04-21',
+        lastServiceDate: 'N/A',
+        nextServiceDate: 'N/A',
         serviceDates: {
-            '2025-01-21': ['Fan 1', 'Fan 2'],
-            '2024-12-19': ['Fan 1'],
-            '2024-11-25': ['Fan 2'],
+            'N/A': ['N/A', 'N/A'],
         }
     },
     'FEDEX-HITECH': {
-        lastServiceDate: '2025-01-22',
-        nextServiceDate: '2025-04-22',
+        lastServiceDate: '2025-04-29',
+        nextServiceDate: '2026-04-29',
         serviceDates: {
-            '2025-01-22': ['Fan 1', 'Fan 2'],
-            '2024-12-20': ['Fan 1', 'Fan 2'],
-            '2024-11-18': ['Fan 1'],
+            '2025-04-29': ['Fan 1', 'Fan 2','Fan 3','Fan 4'],
+            '2025-08-08': ['Fan 4'],
         }
     },
     'FEDEX-KLIA': {
-        lastServiceDate: '2025-01-23',
-        nextServiceDate: '2025-04-23',
+        lastServiceDate: '2025-04-16',
+        nextServiceDate: '2026-04-16',
         serviceDates: {
-            '2025-01-23': ['Fan 1', 'Fan 2', 'Fan 3'],
-            '2024-12-21': ['Fan 1', 'Fan 2'],
-            '2024-11-20': ['Fan 3'],
+            '2025-04-16': ['Fan 1', 'Fan 2'],
+        
         }
     },
     'FINEGUARD INDUSTRIES': {
-        lastServiceDate: '2025-01-24',
-        nextServiceDate: '2025-04-24',
+        lastServiceDate: '2025-07-04',
+        nextServiceDate: '2026-07-04',
         serviceDates: {
-            '2025-01-24': ['Fan 1'],
-            '2024-12-18': ['Fan 1'],
+            '2025-07-04': ['Fan 1'],
+        
         }
     },
     'FOODAGON CONNEXION SDN BHD': {
-        lastServiceDate: '2025-01-25',
-        nextServiceDate: '2025-04-25',
+        lastServiceDate: '2025-05-12',
+        nextServiceDate: '2026-05-12',
         serviceDates: {
-            '2025-01-25': ['Fan 1', 'Fan 2'],
-            '2024-12-22': ['Fan 1'],
-            '2024-11-28': ['Fan 2'],
+            '2025-05-12': ['Fan 1'],
+           
         }
     },
     'FURI GLOBAL SDN BHD': {
-        lastServiceDate: '2025-01-26',
-        nextServiceDate: '2025-04-26',
+        lastServiceDate: '2025-09-08',
+        nextServiceDate: '2026-09-08',
         serviceDates: {
-            '2025-01-26': ['Fan 1'],
-            '2024-12-24': ['Fan 1'],
+            '2025-09-08': ['Fan 1'],
+           
         }
     },
     'GBB BAKERY': {
-        lastServiceDate: '2025-01-27',
-        nextServiceDate: '2025-04-27',
+        lastServiceDate: '2024-01-05',
+        nextServiceDate: '2025-01-05',
         serviceDates: {
-            '2025-01-27': ['Fan 1', 'Fan 2'],
-            '2024-12-25': ['Fan 1'],
-            '2024-11-30': ['Fan 2'],
+            '2024-01-05': ['Fan 1'],
+
         }
     },
     'GOOD TIMING FOOD VILLAGE': {
-        lastServiceDate: '2025-01-28',
-        nextServiceDate: '2025-04-28',
+        lastServiceDate: '2025-07-30',
+        nextServiceDate: '2026-07-30',
         serviceDates: {
-            '2025-01-28': ['Fan 1', 'Fan 2'],
-            '2024-12-26': ['Fan 1', 'Fan 2'],
+            '2025-07-30': ['Fan 2'],
+        
         }
     },
     'HONDA LOGISTICS': {
-        lastServiceDate: '2025-01-29',
-        nextServiceDate: '2025-04-29',
+        lastServiceDate: '2024-12-07',
+        nextServiceDate: '2025-06-07',
         serviceDates: {
-            '2025-01-29': ['Fan 1', 'Fan 2', 'Fan 3'],
-            '2024-12-28': ['Fan 1', 'Fan 2'],
+            '2022-09-29': ['C6(BIGASS)', 'C7(AIREGARD)', 'C8(AIREGARD)','C9(BIGASS),'C11(AIREGARD)'],
+            '2024-12178': ['Fan 1', 'Fan 2'],
             '2024-11-26': ['Fan 3'],
         }
     },
@@ -551,3 +530,4 @@ window.addEventListener('DOMContentLoaded', function() {
         datesListEl.innerHTML = '<p class="no-dates">No service dates available</p>';
     }
 });
+
