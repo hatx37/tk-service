@@ -214,7 +214,7 @@ const companyReportLinks = {
             'AIREGARD(Fan 9)': 'https://drive.google.com/drive/u/2/folders/15Q3_ZLd6UPJl43k7fCjKkz6-5cpB3Vlh',
             'AIREGARD(Fan 10)': 'https://drive.google.com/drive/u/2/folders/13gLJiToRTIy71z81NBjuZ555zhqZgY-1',
             'BIGASS(Fan 1)': 'https://drive.google.com/drive/u/2/folders/15Uq91XiYvoVjq8ZRXW6ZHShBxgJbp9Mj',
-            'BIGASS(Fan 4)': 'https://drive.google.com/drive/u/2/folders/1kwKx0k2U9Cg0xMCAe4mKznLfpRxVUGFu,
+            'BIGASS(Fan 4)': 'https://drive.google.com/drive/u/2/folders/1kwKx0k2U9Cg0xMCAe4mKznLfpRxVUGFu',
             'BIGASS(Fan 7)': 'https://drive.google.com/drive/u/2/folders/1WmdtfqL1T6BIeS54y6tYn-G_ADBs83o5',
             'UHF-14(Fan 11)': 'https://drive.google.com/drive/u/2/folders/1rQaj9QpB70JsgmElb9nysJuqXJoMlgzH',
             'UHF-14(Fan 12)': 'https://drive.google.com/drive/u/2/folders/1Dp2jSGz1QtDtIU4tM01TUilJULUleDBl',
@@ -261,8 +261,8 @@ const companyReportLinks = {
             'Fan 6(Site B)': 'https://drive.google.com/drive/u/2/folders/110PvPtSTdY6RFHL8Ul--Fs3fvpCrlRBw',
             'Fan 7(Site B)': 'https://drive.google.com/drive/u/2/folders/1CYJSNrb7NXZ3yCMX1ylBUGsgtJlU0add',
             'Fan 8(D16/D18)': 'https://drive.google.com/drive/u/2/folders/1MtbwLcmKvYgPD7T3llNWMG0WYSfTrIkq',
-            'Fan 9(D16/D18)': 'https://drive.google.com/drive/u/2/folders/18PuJpHVVN8AFWzT41ji4aLyNZlu0tKfH'
-            'Fan 10(D16/D18)': 'https://drive.google.com/drive/u/2/folders/1Pa-u3r28xZ6z6E9aL7i1GOnPM7mjCM-h'
+            'Fan 9(D16/D18)': 'https://drive.google.com/drive/u/2/folders/18PuJpHVVN8AFWzT41ji4aLyNZlu0tKfH',
+            'Fan 10(D16/D18)': 'https://drive.google.com/drive/u/2/folders/1Pa-u3r28xZ6z6E9aL7i1GOnPM7mjCM-h',
         }
     },
     'LH ELECTRIC & SERVICES': {
@@ -551,6 +551,7 @@ window.addEventListener('DOMContentLoaded', function() {
     }
 
 });
+
 
 
 
