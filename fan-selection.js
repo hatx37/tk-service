@@ -168,7 +168,7 @@ const companyReportLinks = {
             'C14(6)(BIGASS)': 'https://drive.google.com/drive/u/2/folders/1hesSILmWhWMTKmCe0PWF3DQk4-qIsffP',
             'D15(8)(AIREGARD)': 'https://drive.google.com/drive/u/2/folders/1kGEPi8r6qOthwVrDiE0BzBQIccGl7rMu',
             'E15(AIREGARD)': 'https://drive.google.com/drive/u/2/folders/138ApH5SEZj82BRWdh_2HmzpIT9_y3Iyj',
-            'F14(AIREGUARD)': 'https://drive.google.com/drive/u/2/folders/1NSzpJMU7xbXXI-4SlJUuYqzDTdV4ylOa',
+            'F14(AIREGARD)': 'https://drive.google.com/drive/u/2/folders/1NSzpJMU7xbXXI-4SlJUuYqzDTdV4ylOa',
         },
         '2023-10-07': {
             'B6': 'https://drive.google.com/drive/u/2/folders/1v0705nBNgONInYtIYrevERoxGes17VWL',
@@ -546,6 +546,7 @@ window.addEventListener('DOMContentLoaded', function() {
         fanGridEl.innerHTML = '<p class="no-fans">No fans serviced on this date</p>';
     }
 });
+
 
 
 
