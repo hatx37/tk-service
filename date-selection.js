@@ -328,29 +328,24 @@ const companyServiceData = {
         }
     },
     'TAYLOR (TEG)': {
-        lastServiceDate: '2025-02-23',
-        nextServiceDate: '2025-05-24',
+        lastServiceDate: '2024-10-18',
+        nextServiceDate: '2025-10-18',
         serviceDates: {
-            '2025-02-23': ['Fan 1', 'Fan 2'],
-            '2025-02-19': ['Fan 1'],
-            '2025-02-12': ['Fan 2'],
+            '2025-10-18': ['Fan 1', 'Fan 2'],
         }
     },
     'UCSI INTERNATIONAL SCHOOL SB': {
-        lastServiceDate: '2025-02-24',
-        nextServiceDate: '2025-05-25',
+        lastServiceDate: '2025-08-06',
+        nextServiceDate: '2025-08-09',
         serviceDates: {
-            '2025-02-24': ['Fan 1', 'Fan 2'],
-            '2025-02-20': ['Fan 1'],
-            '2025-02-15': ['Fan 2'],
+            '2025-08-06': ['Fan 4'],
         }
     },
     'UPPER HERITAGE SDN BHD': {
-        lastServiceDate: '2025-02-25',
-        nextServiceDate: '2025-05-26',
+        lastServiceDate: '2025-07-25',
+        nextServiceDate: '2026-07-17',
         serviceDates: {
-            '2025-02-25': ['Fan 1'],
-            '2025-02-22': ['Fan 1'],
+            '2025-06-17': ['Fan 1'],
         }
     }
 };
@@ -476,6 +471,7 @@ function calculateDaysUntil(dateString) {
     
     return diffDays;
 }
+
 
 
 
