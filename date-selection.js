@@ -347,6 +347,13 @@ const companyServiceData = {
         serviceDates: {
             '2025-07-25': ['Fan 1'],
         }
+    },
+    'YINGWAH': {
+        lastServiceDate: '2025-06-17',
+        nextServiceDate: '2026-06-17',
+        serviceDates: {
+            '2025-06-17': ['Fan 1'],
+        }
     }
 };
 
@@ -497,6 +504,7 @@ function calculateDaysUntil(dateString) {
     
     return diffDays;
 }
+
 
 
 
