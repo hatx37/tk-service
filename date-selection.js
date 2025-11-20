@@ -357,6 +357,9 @@ const companyServiceData = {
 window.addEventListener('DOMContentLoaded', function() {
     const companyName = localStorage.getItem('companyName');
     
+    console.log('🔍 DATE SELECTION DEBUG:');
+    console.log('Company Name from localStorage:', companyName);
+    
     if (!companyName) {
         alert('No company selected. Redirecting to home page.');
         window.location.href = 'index.html';
@@ -364,6 +367,8 @@ window.addEventListener('DOMContentLoaded', function() {
     }
 
     const companyData = companyServiceData[companyName];
+    
+    console.log('Company Data found:', companyData);
     
     if (!companyData) {
         alert('No service data found for this company.');
@@ -415,6 +420,8 @@ function displayServiceDates(serviceDates) {
     const datesListElement = document.getElementById('datesList');
     datesListElement.innerHTML = '';
 
+    console.log('📅 Service Dates:', serviceDates);
+
     // Sort dates in descending order (most recent first)
     const sortedDates = Object.keys(serviceDates).sort((a, b) => new Date(b) - new Date(a));
 
@@ -442,8 +449,22 @@ function displayServiceDates(serviceDates) {
 // ========================================
 
 function selectDate(selectedDate) {
-    // Store selected date
+    const companyName = localStorage.getItem('companyName');
+    const companyData = companyServiceData[companyName];
+    const fansServiced = companyData.serviceDates[selectedDate];
+    
+    console.log('✅ DATE SELECTED:');
+    console.log('Selected Date:', selectedDate);
+    console.log('Fans Serviced:', fansServiced);
+    console.log('Fans Count:', fansServiced.length);
+    
+    // Store selected date and fans serviced with CORRECT keys
     localStorage.setItem('selectedServiceDate', selectedDate);
+    localStorage.setItem('fansServiced', JSON.stringify(fansServiced));
+    
+    console.log('💾 Stored in localStorage:');
+    console.log('selectedServiceDate:', localStorage.getItem('selectedServiceDate'));
+    console.log('fansServiced:', localStorage.getItem('fansServiced'));
     
     // Redirect to fan selection page
     window.location.href = 'fan-selection.html';
@@ -454,6 +475,11 @@ function selectDate(selectedDate) {
 // ========================================
 
 function formatDate(dateString) {
+    // Handle special cases like 'N/A' or 'Photo'
+    if (dateString === 'N/A' || dateString === 'Photo') {
+        return dateString;
+    }
+    
     const date = new Date(dateString);
     const options = { year: 'numeric', month: 'long', day: 'numeric' };
     return date.toLocaleDateString('en-US', options);
@@ -471,7 +497,6 @@ function calculateDaysUntil(dateString) {
     
     return diffDays;
 }
-
 
 
 
