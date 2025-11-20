@@ -94,101 +94,118 @@ const companyReportLinks = {
     },
     'EXHIBITION SAMPLE': {
         '2025-04-25': {
-            'Fan 1': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
+            'Fan 1': 'https://drive.google.com/drive/u/2/folders/1QBaKq_IS1ipGATSPng5ZY1ZwdKguIFaT',
+            'Fan 2': 'https://drive.google.com/drive/u/2/folders/1oZpPwBJEh68JNOlF6jMpdCaWFywGZlZh',
         },
-        '2025-04-25': {
-            'Fan 1': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
+        '2025-06-10': {
+            'Fan 1': 'https://drive.google.com/drive/u/2/folders/1pNBI9rIoEpHDNHKRaMwjMOQd5CzIPgL1',
+            'Fan 2': 'https://drive.google.com/drive/u/2/folders/1ov71HmqbnOyehyeyFyGKOLzMtDR33kq4',
         }
     },
     'FEDEX-BUKIT JELUTONG': {
         'N/A': {
             'N/A': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
-            'N/A': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
         }
     },
     'FEDEX-HITECH': {
         '2025-04-29': {
-            'Fan 1': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
-            'Fan 2': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
-            'Fan 3': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
-            'Fan 4': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
+            'Fan 1': 'https://drive.google.com/drive/folders/1iX1Zr0Xq16FM-q9LX0KGK_94xYFvGPsZ',
+            'Fan 2': 'https://drive.google.com/drive/folders/1EwvaRy2Q2Og8GGeHbVRNCzVjZ3A2r_NX',
+            'Fan 3': 'https://drive.google.com/drive/u/2/folders/1ATHAA8H6zjfAYmu7BcDB6fiNP4sojW5Y',
+            'Fan 4': 'https://drive.google.com/drive/u/2/folders/1n12r6DGO9biC37zzgjELwM9eEEBPs16u',
         },
         '2025-08-08': {
-            'Fan 4': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
+            'Fan 4': 'https://drive.google.com/drive/folders/1jZIxmOkRHK6ltSaq2V6h6G06z5ZCzChv',
         }
     },
     'FEDEX-KLIA': {
         '2025-04-16': {
-            'Fan 1': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
-            'Fan 2': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
+            'Fan 1': 'https://drive.google.com/drive/u/2/folders/116QRdN34EiKKQEneSagctsLz5fzSzlkw',
+            'Fan 2': 'https://drive.google.com/drive/u/2/folders/1I0bNvNimFSj6h6b8RwaHCACUezbNcBWv',
         }
     },
     'FINEGUARD INDUSTRIES': {
         '2025-07-04': {
-            'Fan 1': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
+            'Fan 1': 'https://drive.google.com/drive/u/2/folders/1jAH6yLVixyWmKB85R5AyEhzOjzDxweee',
         }
     },
     'FOODAGON CONNEXION SDN BHD': {
         '2025-05-12': {
-            'Fan 1': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
+            'Fan 1': 'https://drive.google.com/drive/u/2/folders/13jUYFHR3T6e5e1Xsu4Q6ClTzdnZ5eTqU',
         }
     },
     'FURI GLOBAL SDN BHD': {
         '2025-09-08': {
-            'Fan 1': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
+            'Fan 1': 'https://drive.google.com/drive/u/2/folders/1Td4NQLrf5XyKRY7cMAvo-ikKwMyh6Jr4',
         }
     },
     'GBB BAKERY': {
         '2024-01-05': {
-            'Fan 1': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
+            'Fan 1': 'https://drive.google.com/drive/u/2/folders/17lgZZAAeWN91xJm-W4tzcgkpyIa_n8vb',
         }
     },
     'GOOD TIMING FOOD VILLAGE': {
         '2025-07-30': {
-            'Fan 2': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
+            'Fan 2': 'https://drive.google.com/drive/u/2/folders/1BO9WUFbg2FhBpMm8M57ozLhx2ppbdQ9u',
         }
     },
     'HONDA LOGISTICS': {
-        '2022-09-29': {
-            'C6(BIGASS)': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
-            'C7(AIREGARD)': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
-            'C8(AIREGARD)': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
-            'C9(BIGASS)': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
-            'C11(AIREGARD)': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
-            'C14(BIGASS)': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
-            'D15(AIREGARD)': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
-            'E15(AIREGARD)': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
-            'F14': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
+        '2022-09-17': {
+            'C6(BIGASS)': 'https://drive.google.com/drive/u/2/folders/11Wt2QTSGpDG5xuwcei_Ed0DBdb0s4YrF',
+            'C7(AIREGARD)': 'https://drive.google.com/drive/u/2/folders/11iqs16TEIajajMkha0RF8A2oWVz4DWaZ',
+            'C8(AIREGARD)': 'https://drive.google.com/drive/u/2/folders/1m0Qei9YvMqHejZzIOx-PI49m-ySelbdj',
+            'C9(BIGASS)': 'https://drive.google.com/drive/u/2/folders/1kjKQ4kdASkDAMQQc9GAYK8jYvHQWUGXu',
+            'C11(AIREGARD)': 'https://drive.google.com/drive/u/2/folders/1yJrT4aRJoY8EW2dYFtyf_xtDRhR1szZT',
+            'C14(BIGASS)': 'https://drive.google.com/drive/u/2/folders/1HAvNBrI533bUwFR73kRiiypuv9zfPuDy',
+            'D15(AIREGARD)': 'https://drive.google.com/drive/u/2/folders/16IvzTN7Zo8a2SlVWzTl52krqIUt0kDOc',
+            'E15(AIREGARD)': 'https://drive.google.com/drive/u/2/folders/1zkpWj14GYnscXVLq-r8q0ciAzquRPgi5',
+            'F14': 'https://drive.google.com/drive/u/2/folders/1a0nopnNiBXgO62_h1LMBa3C8s5_F9h10',
         },
         '2023-04-09': {
-            'C6(9)(BIGASS)': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
-            'C7(AIREGARD)': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
-            'C8(AIREGARD)': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
-            'C9(BIGASS)': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
-            'C10(AIREGARD)': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
-            'C11(AIREGARD)': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
-            'C14(6)(BIGASS)': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
-            'D15(8)(AIREGARD)': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
-            'E15(AIREGARD)': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
-            'F14(AIREGUARD)': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
+            'C6(9)(BIGASS)': 'https://drive.google.com/drive/u/2/folders/1sBLWxWh0E3TaeHURH7tlfJTwLvYgu0Qa',
+            'C7(AIREGARD)': 'https://drive.google.com/drive/u/2/folders/1q7RQW145vHJIQK-rOdvKTZLJLa6OXxLk',
+            'C8(AIREGARD)': 'https://drive.google.com/drive/u/2/folders/1jfhPQ0BGlmw2vuXAuBWz8wWBPtSZIhpV',
+            'C9(BIGASS)': 'https://drive.google.com/drive/u/2/folders/1Iu7ou_kFcyQDn_XEpzMtPNfcsHp4diR5',
+            'C10(AIREGARD)': 'https://drive.google.com/drive/u/2/folders/1wVYwoesGGubvmpX-hLfUMEEMvdddFcwR',
+            'C11(AIREGARD)': 'https://drive.google.com/drive/u/2/folders/1XI469DWbjk3LQMwhjYymSk4u9JJutQaT',
+            'C14(6)(BIGASS)': 'https://drive.google.com/drive/u/2/folders/1hesSILmWhWMTKmCe0PWF3DQk4-qIsffP',
+            'D15(8)(AIREGARD)': 'https://drive.google.com/drive/u/2/folders/1kGEPi8r6qOthwVrDiE0BzBQIccGl7rMu',
+            'E15(AIREGARD)': 'https://drive.google.com/drive/u/2/folders/138ApH5SEZj82BRWdh_2HmzpIT9_y3Iyj',
+            'F14(AIREGUARD)': 'https://drive.google.com/drive/u/2/folders/1NSzpJMU7xbXXI-4SlJUuYqzDTdV4ylOa',
         },
         '2023-10-07': {
-            'B6': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
-            'B7': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
-            'B8': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
-            'B10': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
-            'C6': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
-            'C7': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
-            'C8': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
-            'C9': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
-            'C10': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
-            'C11': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view', 
-            'C14': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',    
-            'D15': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
-            'E15': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
-            'F14': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
+            'B6': 'https://drive.google.com/drive/u/2/folders/1v0705nBNgONInYtIYrevERoxGes17VWL',
+            'B7': 'https://drive.google.com/drive/u/2/folders/1VYfT_vxP-CZ-s4PqesTtR4BhWMKsPz32',
+            'B8': 'https://drive.google.com/drive/u/2/folders/1GvkCAm-_alsxEdQ12P7lKSSMB468FSNI',
+            'B10': 'https://drive.google.com/drive/u/2/folders/1UDyxRkh3EC9wpA_0up5-g5ExHKEgwBOr',
+            'C6': 'https://drive.google.com/drive/u/2/folders/1__68ATrttDox636ryP52zsPhsbJbJFhK',
+            'C7': 'https://drive.google.com/drive/u/2/folders/1UB0gol_kZkHac9DBrSGijgiGqwbsOXeI',
+            'C8': 'https://drive.google.com/drive/u/2/folders/1qqFZQrzSPxStSKiyLOroNh0lCFVf4qv8',
+            'C9': 'https://drive.google.com/drive/u/2/folders/1z_XcssMFrAuqdeH9eQ67RXiXjo7TM34V',
+            'C10': 'https://drive.google.com/drive/u/2/folders/1Hbg0qTgELGBcVk4vzEzRBDqAyFaxeadF',
+            'C11': 'https://drive.google.com/drive/u/2/folders/1YSOm1XudQkKzUcEBPG7hlAV21NsLqY2c', 
+            'C14': 'https://drive.google.com/drive/u/2/folders/1V5Y1qH79QkaLzGlqJ8jFqS4dz39Apl25',    
+            'D15': 'https://drive.google.com/drive/u/2/folders/1WKQhCi_nYsr2Qyl96Tb2ayS0zXJgkerz',
+            'E15': 'https://drive.google.com/drive/u/2/folders/1KHpOGkwq4de5-BcAs0mrgaa8PFB_t3iN',
+            'F14': 'https://drive.google.com/drive/u/2/folders/1lr2rfF7RaAX-AUdMpNcvQlz76eoImRgT',
         },
-         '2024-12-07': {
+         '2024-05-04': {
+            'B6(Fan 1)': 'https://drive.google.com/drive/u/2/folders/1v0705nBNgONInYtIYrevERoxGes17VWL',
+            'B7(Fan 2)': 'https://drive.google.com/drive/u/2/folders/1VYfT_vxP-CZ-s4PqesTtR4BhWMKsPz32',
+            'B9(Fan 3)': 'https://drive.google.com/drive/u/2/folders/1GvkCAm-_alsxEdQ12P7lKSSMB468FSNI',
+            'B10(Fan 4)': 'https://drive.google.com/drive/u/2/folders/1UDyxRkh3EC9wpA_0up5-g5ExHKEgwBOr',
+            'C6(Fan 14)': 'https://drive.google.com/drive/u/2/folders/1__68ATrttDox636ryP52zsPhsbJbJFhK',
+            'C7(Fan 13)': 'https://drive.google.com/drive/u/2/folders/1UB0gol_kZkHac9DBrSGijgiGqwbsOXeI',
+            'C8(Fan 12)': 'https://drive.google.com/drive/u/2/folders/1qqFZQrzSPxStSKiyLOroNh0lCFVf4qv8',
+            'C9(Fan 11)': 'https://drive.google.com/drive/u/2/folders/1z_XcssMFrAuqdeH9eQ67RXiXjo7TM34V',
+            'C10(Fan 10)': 'https://drive.google.com/drive/u/2/folders/1Hbg0qTgELGBcVk4vzEzRBDqAyFaxeadF',
+            'C11(Fan 9)': 'https://drive.google.com/drive/u/2/folders/1YSOm1XudQkKzUcEBPG7hlAV21NsLqY2c', 
+            'C14(Fan 8)': 'https://drive.google.com/drive/u/2/folders/1V5Y1qH79QkaLzGlqJ8jFqS4dz39Apl25',    
+            'D15(Fan 6)': 'https://drive.google.com/drive/u/2/folders/1WKQhCi_nYsr2Qyl96Tb2ayS0zXJgkerz',
+            'F14(Fan 5)': 'https://drive.google.com/drive/u/2/folders/1KHpOGkwq4de5-BcAs0mrgaa8PFB_t3iN',
+            'F15 Keluar site(Fan 7)': 'https://drive.google.com/drive/u/2/folders/1lr2rfF7RaAX-AUdMpNcvQlz76eoImRgT',
+        },
+        '2024-12-07': {
             'AIREGARD(Fan 2)': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
             'AIREGARD(Fan 3)': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
             'AIREGARD(Fan 5)': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
@@ -532,6 +549,7 @@ window.addEventListener('DOMContentLoaded', function() {
     }
 
 });
+
 
 
 
