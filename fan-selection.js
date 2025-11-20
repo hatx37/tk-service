@@ -43,139 +43,207 @@ const companyReportLinks = {
     },
     'ANSHIN': {
         '2025-01-07': {
-            'Fan 1': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
-            'Fan 2': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
-            'Fan 3': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
+            'Fan 1': 'https://drive.google.com/drive/folders/1AyGRJg1Ly4Az_DrrYt2kpIXi9woKfjyE',
+            'Fan 2': 'https://drive.google.com/drive/folders/15AOmk2FvTeJ2EaeL5tq7RNk71GoQj9lY',
+            'Fan 3': 'https://drive.google.com/drive/folders/13edlKJbHkS1JecLTzVCWvPiLdBS8xEDb',
         }
     },
     'ARATA AUTO CENTRE SDN BHD': {
         '2025-04-22': {
-            'Fan 1': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
+            'Fan 1': 'https://drive.google.com/drive/folders/18de7jhUFgtxLjFMt6BqVoriJmp_puQDc',
         }
     },
     'BBCC DEVELOPMENT': {
         '2025-03-27': {
-            'Fan 6': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
+            'Fan 6': 'https://drive.google.com/drive/folders/1pPVBku9Lbj2rhjqiXp7bDtLHcUMC2EJK',
         }
     },
     'CITY UNIVERSITY': {
         '2024-01-16': {
-            'Fan 1': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
+            'Fan 1': 'https://drive.google.com/drive/folders/1Iy8C-o9PK-zLBF3gBn74HKA3q_abxFbr',
         }
     },
     'CLICKASIA SDN BHD': {
         '2025-06-13': {
-            'Fan 1': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
-            'Fan 2': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
-            'Fan 3': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
+            'Fan 1': 'https://drive.google.com/drive/folders/1qejswm4pfKaNPDc2-kiXoOzp2Ha8q5wd',
+            'Fan 2': 'https://drive.google.com/drive/folders/1_MjVr77vLsWJnN2nv0FYHXOV7DO7JjZW',
+            'Fan 3': 'https://drive.google.com/drive/folders/18qrW0K31BEWF56mIxBUCVHi0QYX74pCF',
         }
     },
     'DATARAN SEGAR HUAT HUAT HUAT FOOD COURT': {
         '2022-06-27': {
-            'Fan 1': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
+            'Fan 1': 'https://drive.google.com/drive/u/2/folders/1jLWePjP-2wNNiWqXBvxGOWpw0gYK8EiE',
         },
-        '2022-06-27': {
-            'Fan 1': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
+        '2025-05-20': {
+            'Fan 1': 'https://drive.google.com/drive/folders/1KjQNBirf1_JupBTot6JGnJNkqpb8si-U',
         }     
     },
     'DHUB': {
         'Photo': {
-            'Fan 1': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
+            'Fan 1': 'https://drive.google.com/drive/folders/1_hOQXH_EOX_4Xklbh6WWorH51xbYweg4',
         }
     },
     'ECRL': {
         '2025-05-02': {
-            'Fan 1': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
-            'Fan 2': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
+            'Fan 1': 'https://drive.google.com/drive/folders/1HQ551tl9ZEfAZfXQIrFLtq8rzX8E5EBD',
+            'Fan 2': 'https://drive.google.com/drive/folders/127e4eh-GUpvL2XbmY4q1WlV0igvEA1kS',
         },
         2025-05-05': {
-            'Fan 1': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
+            'Fan 1': 'https://drive.google.com/drive/folders/1eomrJGC-bZyBJpVx3cnq8vREZ8vurECq',
         }        
     },
     'EXHIBITION SAMPLE': {
-        '2025-01-17': {
+        '2025-04-25': {
+            'Fan 1': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
+        },
+        '2025-04-25': {
             'Fan 1': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
         }
     },
     'FEDEX-BUKIT JELUTONG': {
-        '2025-01-21': {
-            'Fan 1': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
-            'Fan 2': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
+        'N/A': {
+            'N/A': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
+            'N/A': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
         }
     },
     'FEDEX-HITECH': {
-        '2025-01-22': {
-            'Fan 1': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
-            'Fan 2': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
-        }
-    },
-    'FEDEX-KLIA': {
-        '2025-01-23': {
+        '2025-04-29': {
             'Fan 1': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
             'Fan 2': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
             'Fan 3': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
+            'Fan 4': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
+        },
+        '2025-08-08': {
+            'Fan 4': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
+        }
+    },
+    'FEDEX-KLIA': {
+        '2025-04-16': {
+            'Fan 1': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
+            'Fan 2': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
         }
     },
     'FINEGUARD INDUSTRIES': {
-        '2025-01-24': {
+        '2025-07-04': {
             'Fan 1': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
         }
     },
     'FOODAGON CONNEXION SDN BHD': {
-        '2025-01-25': {
+        '2025-05-12': {
             'Fan 1': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
-            'Fan 2': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
         }
     },
     'FURI GLOBAL SDN BHD': {
-        '2025-01-26': {
+        '2025-09-08': {
             'Fan 1': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
         }
     },
     'GBB BAKERY': {
-        '2025-01-27': {
+        '2024-01-05': {
             'Fan 1': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
-            'Fan 2': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
         }
     },
     'GOOD TIMING FOOD VILLAGE': {
-        '2025-01-28': {
-            'Fan 1': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
+        '2025-07-30': {
             'Fan 2': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
         }
     },
     'HONDA LOGISTICS': {
-        '2025-01-29': {
-            'Fan 1': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
-            'Fan 2': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
-            'Fan 3': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
+        '2022-09-29': {
+            'C6(BIGASS)': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
+            'C7(AIREGARD)': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
+            'C8(AIREGARD)': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
+            'C9(BIGASS)': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
+            'C11(AIREGARD)': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
+            'C14(BIGASS)': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
+            'D15(AIREGARD)': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
+            'E15(AIREGARD)': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
+            'F14': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
+        },
+        '2023-04-09': {
+            'C6(9)(BIGASS)': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
+            'C7(AIREGARD)': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
+            'C8(AIREGARD)': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
+            'C9(BIGASS)': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
+            'C10(AIREGARD)': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
+            'C11(AIREGARD)': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
+            'C14(6)(BIGASS)': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
+            'D15(8)(AIREGARD)': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
+            'E15(AIREGARD)': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
+            'F14(AIREGUARD)': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
+        },
+        '2023-10-07': {
+            'B6': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
+            'B7': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
+            'B8': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
+            'B10': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
+            'C6': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
+            'C7': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
+            'C8': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
+            'C9': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
+            'C10': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
+            'C11': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view', 
+            'C14': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',    
+            'D15': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
+            'E15': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
+            'F14': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
+        },
+         '2024-12-07': {
+            'AIREGARD(Fan 2)': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
+            'AIREGARD(Fan 3)': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
+            'AIREGARD(Fan 5)': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
+            'AIREGARD(Fan 6)': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
+            'AIREGARD(Fan 8)': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
+            'AIREGARD(Fan 9)': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
+            'BIGASS(Fan 1)': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
+            'BIGASS(Fan 4)': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
+            'BIGASS(Fan 7)': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
+            'UHF-14(Fan 11)': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
+            'UHF-14(Fan 12)': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
+            'UHF-14(Fan 13)': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
+            'UHF-14(Fan 14)': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
         }
     },
     'ISKANDAR EDUCATION ENTERPRISE SDN BHD': {
-        '2025-01-30': {
-            'Fan 1': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
-        }
-    },
-    'ISKANDAR INNOVATIONS SDN BHD': {
-        '2025-01-31': {
-            'Fan 1': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
-        }
-    },
-    'JOYCAMP PJ SDN BHD': {
-        '2025-02-01': {
+        '2025-08-01': {
             'Fan 1': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
             'Fan 2': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
         }
     },
-    'KOH TIKI OKR SDN BHD': {
-        '2025-02-02': {
+    'ISKANDAR INNOVATIONS SDN BHD': {
+        '2024-06-25': {
             'Fan 1': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
+            'Fan 2': 'https://drive.google.com/drive/folders/1-uDQQ_JqhY5J8CTiq2ikuiITVJlr_8DC',
+            'Fan 3': 'https://drive.google.com/drive/folders/1tfX_kEduVSVt-ZHJg-tDQnwoaShudfK1',
+            'Fan 4': 'https://drive.google.com/drive/folders/1qIC4HxIbWf88BoDFkqqSXU8mthVKaGfV',
+            'Fan 5': 'https://drive.google.com/drive/folders/14LbTOfVDkr4H6vSv3nwyokdnkNtNaaqM',
+            'Fan 6': 'https://drive.google.com/drive/folders/1F222aStI_HXgnj6O8PBQBivzjB5V8AFa',
+            'Fan 7': 'https://drive.google.com/drive/folders/1-uDQQ_JqhY5J8CTiq2ikuiITVJlr_8DC',
+        }
+    },
+    'JOYCAMP PJ SDN BHD': {
+        '2024-10-26': {
+            'Fan 1': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
+        }
+    },
+    'KOH TIKI OKR SDN BHD': {
+        '2025-06-09': {
+            'Fan 1': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
+            'Fan 2': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
         }
     },
     'KUEHNE + NAGEL': {
         '2025-02-03': {
-            'Fan 1': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
-            'Fan 2': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
+            'Fan 1(Site A)': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
+            'Fan 2(Site A)': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
+            'Fan 3(Site A)': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
+            'Fan 4(Site A)': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
+            'Fan 5(Site B)': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
+            'Fan 6(Site B)': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
+            'Fan 7(Site B)': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
+            'Fan 8(D16/D18)': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view',
+            'Fan 9(D16/D18)': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view'
+            'Fan 10(D16/D18)': 'https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view'
         }
     },
     'LH ELECTRIC & SERVICES': {
@@ -423,5 +491,6 @@ window.addEventListener('DOMContentLoaded', function() {
     }
 
 });
+
 
 
