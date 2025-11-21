@@ -83,7 +83,7 @@ const companyServiceData = {
         nextServiceDate: 'N/A',
         serviceDates: {
             '2025-04-25': ['Fan 1','Fan 2'],
-            '2054-06-10': ['Fan 1','Fan 2'],
+            '2025-06-10': ['Fan 1','Fan 2'],
         }
     },
     'FEDEX-BUKIT JELUTONG': {
@@ -504,6 +504,7 @@ function calculateDaysUntil(dateString) {
     
     return diffDays;
 }
+
 
 
 
