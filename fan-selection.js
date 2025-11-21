@@ -198,7 +198,7 @@ const companyReportLinks = {
             'C10(Fan 10)': 'https://drive.google.com/drive/u/2/folders/1xbcxvtAQM12ggZZ6a62M71dcKmu6rDmV',
             'C11(Fan 9)': 'https://drive.google.com/drive/u/2/folders/1wBpUMewwIsP6MJbTET57YIPi_2JZzjgV', 
             'C14(Fan 8)': 'https://drive.google.com/drive/u/2/folders/1krGZjATx8-CmEZymGhGwtJF5CJZsWxoQ',    
-            'D15(Fan 6)': 'https://drive.google.com/drive/u/2/folders/1wYuml4K9oIcSPDRPUBbak-b1XIB42SwJ',
+            'D16(Fan 6)': 'https://drive.google.com/drive/u/2/folders/1wYuml4K9oIcSPDRPUBbak-b1XIB42SwJ',
             'F14(Fan 5)': 'https://drive.google.com/drive/u/2/folders/1utWH5eWSKfweQjoVqqvsgNNxoS0TGIWy',
             'F15 Keluar site(Fan 7)': 'https://drive.google.com/drive/u/2/folders/1jUo0IjF01fyKJ66OWl4QTPyXFWvRW_re',
         },
@@ -551,6 +551,7 @@ window.addEventListener('DOMContentLoaded', function() {
         fanGridEl.innerHTML = '<p class="no-fans">No fans serviced on this date</p>';
     }
 });
+
 
 
 
